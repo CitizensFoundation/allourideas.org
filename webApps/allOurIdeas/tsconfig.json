@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "es2020",
+    "lib": ["es2021", "DOM", "DOM.Iterable"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "resolveJsonModule": true,
+    "outDir": "ts-out",
+    "rootDir": "./src",
+    "strict": true,
+    "useDefineForClassFields": false,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "plugins": [
+      {
+        "name": "ts-lit-plugin",
+        "strict": true
+      }
+    ]
+  },
+  "exclude": ["**/*.spec.ts"],
+  "include": [
+    "./node_modules/@policysynth/agents/validation.d.ts",
+    "./node_modules/@yrpri/webapp/types.d.ts",
+    "./node_modules/@yrpri/webapp/typesAoi.d.ts",
+    "./node_modules/@yrpri/webapp/typesLlms.d.ts",
+    "src/**/*.ts"
+  ]
+}

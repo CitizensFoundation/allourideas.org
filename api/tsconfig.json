@@ -1,6 +1,6 @@
 {
-	"extends": "@tsconfig/node18/tsconfig.json",
-	"compilerOptions": {
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
     "target": "es2020",
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
@@ -9,18 +9,15 @@
     "baseUrl": ".",
     "skipLibCheck": true,
     "outDir": "ts-out/",
-    "allowJs": true,
-    //"declaration": true,
-    //"declarationMap": true,
-    //"sourceMap": true
+    "allowJs": true
   },
-	"include": [
-		"**/*.ts",
-		"**/*.js",
-		"**/*.cjs",
-		"**/*.json",
-		"./node_modules/@policysynth/agents/validation.d.ts",
-		"./node_modules/@policysynth/agents/types.d.ts",
-		"./node_modules/@yrpri/api/server.d.ts"
-	]
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.json",
+    "./node_modules/@policysynth/agents/validation.d.ts",
+    "./node_modules/@policysynth/agents/types.d.ts",
+    "./node_modules/@yrpri/api/server.d.ts"
+  ]
 }
