@@ -1,0 +1,1 @@
+{"version":3,"file":"aoi-admin-config-group.d.ts","sourceRoot":"","sources":["../../src/admin/aoi-admin-config-group.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAElF,qBACa,mBAAoB,SAAQ,kBAAkB;IAChD,cAAc,SAA4C;IAE1D,OAAO,CACd,iBAAiB,EAAE,GAAG,CAAC,MAAM,GAAG,MAAM,GAAG,MAAM,EAAE,OAAO,CAAC,GACxD,IAAI;IAeE,wBAAwB;CAGlC"}

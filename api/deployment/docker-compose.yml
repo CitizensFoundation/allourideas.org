@@ -1,0 +1,140 @@
+version: '3.9'
+
+x-your-priorities-app-common: &your-priorities-app-common
+  #  build: ./your-priorities-app/
+  build:
+    context: ../../.
+    dockerfile: deployment/docker/your-priorities-app/Dockerfile
+  env_file: .env
+  restart: always
+  image: your-priorities-app:current
+  command: node ts-out/server_api/api_app.js
+  healthcheck:
+    test: ["CMD", "curl", "-f", "http://localhost:9080/api/users/has/AutoTranslation"]
+    interval: 30s
+    timeout: 20s
+    retries: 3
+  network_mode: host
+  logging:
+    driver: "json-file"
+    options:
+      max-file: "2000"
+      max-size: "25m"
+
+x-your-priorities-worker-common: &your-priorities-worker-common
+  #build: ./your-priorities-worker/
+  build:
+    context: ../../.
+    dockerfile: deployment/docker/your-priorities-worker/Dockerfile
+  restart: always
+  env_file: .env
+  command: node ts-out/server_api/lib/workers/main.js
+  network_mode: host
+  logging:
+    driver: "json-file"
+    options:
+      max-file: "1000"
+      max-size: "25m"
+
+services:
+  webserver:
+    container_name: webserver
+    restart: always
+    env_file: .env
+    build:
+      context: ./webserver_cloudflare/
+      dockerfile: Dockerfile
+    #ports:
+    #  - "80:80"
+    #  - "443:443"
+    volumes:
+      - ./webserver/templates:/etc/nginx/templates
+    healthcheck:
+      test: ["CMD", "curl", "-f", "https://${FULL_HOSTNAME}/api/users/has/AutoTranslation"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    network_mode: host
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "2000"
+        max-size: "25m"
+
+  your-priorities-app1:
+    <<: *your-priorities-app-common
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9080/api/users/has/AutoTranslation"]
+    environment:
+      - PORT=9080
+
+  your-priorities-worker:
+    <<: *your-priorities-worker-common
+
+  db:
+    image: postgres:16.1
+    container_name: postgres
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    network_mode: host
+
+  mysql_db:
+    image: mysql:8.0
+    restart: always
+    network_mode: host
+    env_file:
+      - .mysql-env
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - mysql-db-data:/var/lib/mysql
+
+  pairwise-api:
+    container_name: pairwise-api
+    restart: always
+    env_file: .pairwise-env
+    build:
+      context: ./pairwise-api/
+      dockerfile: Dockerfile
+    ports:
+      - "3072:3072"
+    volumes:
+      - pairwise-api:/home
+#      - bundle-data:/home/app/pairwise-api/vendor/bundle
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://${FULL_HOSTNAME}:3072/"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    network_mode: host
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "2000"
+        max-size: "25m"
+
+  redis:
+    image: redis:6.2.14-alpine
+    container_name: redis
+    restart: always
+    network_mode: host
+    ports:
+      - '6379'
+    command: redis-server --save 20 1 --loglevel warning
+    volumes:
+      - redis:/data
+
+volumes:
+  db-data:
+    driver: local
+  redis:
+    driver: local
+  mysql-db-data:
+    driver: local
+  pairwise-api:
+    driver: local
