@@ -788,11 +788,11 @@
     "hidden": "ဝှက်ထားသည်",
     "published": "ဖွင့်ထားသည်",
     "successful": "အောင်မြင်သည်",
-    "failed": "Failed",
-    "inProgress": "In progress"
+    "failed": "မအောင်မြင်ခဲ့",
+    "inProgress": "ဆောင်ရွက်နေဆဲ"
   },
   "pluralStatus": {
-    "published": "Open ideas",
+    "published": "ဖွင့်ထားသော အယူအဆများ",
     "successful": "အောင်မြင်သော အတွေးအခေါ်များ",
     "failed": "ကျရှုံးသော အတွေးအခေါ်များ",
     "inProgress": "လက်ရှိ ဆောင်ရွက်နေသော အတွေးအခေါ်များ",
@@ -987,20 +987,20 @@
     "edit": "အုပ်စုတည်းဖြတ်ပါ",
     "invite": "မိတ်ဆွေကို ဖိတ်ခေါ်ပါ",
     "invite_to_group": "ဤအုပ်စုသို့ မိတ်ဆွေကို ဖိတ်ခေါ်ပါ",
-    "share_group": "Share this group",
-    "delete": "Delete group",
-    "objectives": "Objectives",
-    "public": "Public group",
-    "closed": "Closed group",
-    "secret": "Secret group",
-    "openToCommunity": "Open to community",
-    "canVote": "Voting allowed",
-    "canAddNewPosts": "New ideas allowed",
-    "config": "Config",
-    "update": "Update group"
+    "share_group": "ဤအဖွဲ့ဝင်များကို မျှဝေပါ",
+    "delete": "အဖွဲ့ကို ဖျက်ပါ",
+    "objectives": "ရည်မှန်းချက်များ",
+    "public": "အများသုံး အဖွဲ့",
+    "closed": "ပိတ်ထားသော အဖွဲ့",
+    "secret": "လျှို့ဝှက် အဖွဲ့",
+    "openToCommunity": "အသိုက်အဝန်းသို့ ဖွင့်ထားသည်",
+    "canVote": "မဲပေးခွင့်ရှိသည်",
+    "canAddNewPosts": "အယူအဆအသစ်များကို ခွင့်ပြုသည်",
+    "config": "ပြင်ဆင်ချက်",
+    "update": "အဖွဲ့အား အပ်ဒိတ်ပါ"
   },
   "membership": {
-    "joined": "You have joined",
+    "joined": "သင် ပါဝင်ပြီးပါပြီ",
     "left": "သင်ထွက်ခဲ့သည်"
   },
   "menu": {
@@ -1350,5 +1350,6 @@
   "firstAnswer": "First answer",
   "secondAnswer": "Second answer",
   "hereIsTheQuestion": "Here is the question",
-  "pleaseAnswerInThisLanguage": "Please answer in this language"
+  "pleaseAnswerInThisLanguage": "Please answer in this language",
+  "backgroundFinish": "Background Finish"
 }

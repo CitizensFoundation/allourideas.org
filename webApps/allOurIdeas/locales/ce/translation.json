@@ -130,10 +130,10 @@
   "generateAiImage": "Сурт хьажар",
   "generateWithAI": "Хьажар",
   "lookAndFeel": "Хьаьжна а хьалхара",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Аутентификация",
   "basic": "Базара",
   "webApp": "Веб-апп",
-  "authApis": "Auth APIs",
+  "authApis": "Аутентификацин API",
   "dontHaveAccount": "Хисап яззам ю?",
   "cantRememberPassword": "Пароль лелор ю?",
   "loginAndRegistration": "Декъалар а, Регистрация",
@@ -1184,7 +1184,7 @@
   "hats": "Хуьлуш",
   "dataForVisualizationJsonError": "JSON халаманаш",
   "selectCategory": "Категори тергал",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Earl Кхиниг",
   "show_cant_decide": "Къайлахь ишар болу",
   "accept_new_ideas": "Керла идеяш йолу",
   "hide_results": "результаташ йаса",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "ТIаьхьа жаваб",
   "secondAnswer": "Ши жаваб",
   "hereIsTheQuestion": "Хьан лоьхуш йоьху",
-  "pleaseAnswerInThisLanguage": "Марша хIара мотт хьажор"
+  "pleaseAnswerInThisLanguage": "Марша хIара мотт хьажор",
+  "backgroundFinish": "Фонан дакъа"
 }

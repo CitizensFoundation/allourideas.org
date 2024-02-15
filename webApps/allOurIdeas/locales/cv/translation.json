@@ -1015,7 +1015,7 @@
     "addAdmin": "Админ палăрт",
     "removeUser": "Куçаруççĕн çыхăн",
     "inviteUser": "Куçаруççĕ палăрт",
-    "email": "email",
+    "email": "почта",
     "removeFromOrganization": "Организацине çыхăн",
     "addToOrganization": "Организаци палăрт",
     "selectOrganization": "Организацине сăнар"
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Çĕр тăвăк",
   "secondAnswer": "İккĕмĕш тăвăк",
   "hereIsTheQuestion": "Манăн пăнчă",
-  "pleaseAnswerInThisLanguage": "Çак пĕлтереççе паллă тăвак"
+  "pleaseAnswerInThisLanguage": "Çак пĕлтереççе паллă тăвак",
+  "backgroundFinish": "Фонăн аяклăхĕ"
 }

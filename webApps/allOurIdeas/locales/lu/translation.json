@@ -1194,7 +1194,7 @@
   "New Group": "Kikundi kipya",
   "haveCreatedXLsReport": "Tumekamilisha ripoti ya XL",
   "description": "Nkasa",
-  "website": "website",
+  "website": "webusayidi",
   "organizationTree": {
     "new": "Shirika",
     "toast": {
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Eyenga eya yambo",
   "secondAnswer": "Eyenga eya ibale",
   "hereIsTheQuestion": "Ntina yina awa",
-  "pleaseAnswerInThisLanguage": "Yambo na lulimi lwa awa"
+  "pleaseAnswerInThisLanguage": "Yambo na lulimi lwa awa",
+  "backgroundFinish": "Mukânda wa Mbeli"
 }

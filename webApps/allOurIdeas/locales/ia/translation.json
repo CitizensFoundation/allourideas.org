@@ -1350,5 +1350,6 @@
   "firstAnswer": "Prime responsa",
   "secondAnswer": "Secunde responsa",
   "hereIsTheQuestion": "Ecce le question",
-  "pleaseAnswerInThisLanguage": "Per favor responde in iste lingua"
+  "pleaseAnswerInThisLanguage": "Per favor responde in iste lingua",
+  "backgroundFinish": "Fundo"
 }

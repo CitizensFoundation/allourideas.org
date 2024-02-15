@@ -34,7 +34,7 @@
   "startReportCreation": "Tunga Nsango",
   "areYouSureYouWantToDeleteThisOrganization": "Yo kele na ntima ya kufuta kiese ya?",
   "createOrganization": "Tunga kiese",
-  "ltpConfig": "LTP Config",
+  "ltpConfig": "LTP Konfigi",
   "welcomeHTMLforNotLoggedInUsers": "Mbote HTML ya bantu kele ve na kota",
   "currentRealityTree": "Nkisi ya Mfumu ya Sika",
   "goalTree": "Nkisi ya Mfumu",
@@ -1184,7 +1184,7 @@
   "hats": "Mikufi",
   "dataForVisualizationJsonError": "Nkosa ya JSON",
   "selectCategory": "Sankula Kati",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Earl Konfigi",
   "show_cant_decide": "Monisa ve luka",
   "accept_new_ideas": "Kwakisa bansangu ya sika",
   "hide_results": "fina masolo",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Nkunga ya yambo",
   "secondAnswer": "Nkunga ya zole",
   "hereIsTheQuestion": "Ntangu yina kele mbote",
-  "pleaseAnswerInThisLanguage": "Nkunga na kikongo"
+  "pleaseAnswerInThisLanguage": "Nkunga na kikongo",
+  "backgroundFinish": "Nzila ya Nkembo"
 }

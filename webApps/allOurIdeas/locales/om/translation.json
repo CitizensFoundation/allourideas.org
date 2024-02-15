@@ -1159,11 +1159,11 @@
   "onlyAdminsCanCreateCommunities": "Kan Uumuu Danda'an Kanneen Bulchiinsa Qofa",
   "Facebook Client Id": "Facebook Client Id",
   "facebookClientId": "Facebook Client Id",
-  "Facebook Client Secret": "Facebook Client Secret",
-  "facebookClientSecret": "Facebook Client Secret",
-  "Google Client Id": "Google Client Id",
-  "googleClientId": "Google Client Id",
-  "Google Client Secret": "Google Client Secret",
+  "Facebook Client Secret": "Facebook Maamilaa Sirrii",
+  "facebookClientSecret": "Facebook Maamilaa Sirrii",
+  "Google Client Id": "Google Maamilaa Id",
+  "googleClientId": "Google Maamilaa Id",
+  "Google Client Secret": "Google Maamilaa Sirrii",
   "googleClientSecret": "Google Maamiltoota Iccitii",
   "Discord Client Id": "Discord Maamiltoota Id",
   "discordClientId": "Discord Maamiltoota Id",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Deebii duraa",
   "secondAnswer": "Deebii lammaffaa",
   "hereIsTheQuestion": "Gaaffiin kunooti",
-  "pleaseAnswerInThisLanguage": "Afaan kanaan deebisaa"
+  "pleaseAnswerInThisLanguage": "Afaan kanaan deebisaa",
+  "backgroundFinish": "Dabaree Furtuu"
 }

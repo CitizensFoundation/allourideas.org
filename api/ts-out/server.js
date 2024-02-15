@@ -1,3 +1,3 @@
-import { YourPrioritiesApi } from '@yrpri/api/app.js';
-const app = new YourPrioritiesApi(8000);
+import { AoiServerApi } from './app.js';
+const app = new AoiServerApi(8000);
 app.listen();

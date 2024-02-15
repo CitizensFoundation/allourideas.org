@@ -130,10 +130,10 @@
   "generateAiImage": "ᐊᔭᒥᐦᑕᐠ ᑲᑎᓯᑲᓇᐠ",
   "generateWithAI": "ᑲᑎᓯᑲᓇᐠ",
   "lookAndFeel": "ᑲᑎᓯᑲᓇᐠ ᐊᔭᒥᐦᑕᐠ",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML ᑲᑎᑎᓯᐠ",
   "basic": "ᐊᔭᒥᐦᑕᐠ",
   "webApp": "ᐊᔭᒥᐦᑕᐠ ᑲᑎᓯᑲᓇᐠ",
-  "authApis": "Auth APIs",
+  "authApis": "ᑲᑎᑎᓯᐠ APIs",
   "dontHaveAccount": "ᑲ ᑎᐯᓂᓂᐧᐋᐧᐤ ᑲᒪᑲᐧᐃᑲᐣ?",
   "cantRememberPassword": "ᑲ ᑎᐯᓯᐦᑖᐤ ᒪᑲᑎᓯᐢᑲᐣ?",
   "loginAndRegistration": "ᑭᓯᐦᑖᐤ ᐊᒥᓯᐦᑖᐤ",
@@ -1331,7 +1331,7 @@
   "domainFraudManagement": "ᑲᓇᑕᒥ ᐅᑎᓂᐦᑖᑕᐅᐧᐃᓂᒧᐊᐧᐃᐧᐃᐧᐃᐧᐊᐧ",
   "Access": "ᑭᐦᐃᐧᐊᔨᒧᐊᐧᐃᐧᐊᐧ",
   "openOrganizationMenu": "ᑲᑎᐦᐃᐧᐊᔨᒧᐊᐧ ᑭᔭᐦᐃᐧᐊᔨᐦᑖᐧᐃᐧᐊᐧ ᒥᓇᐦᐃᐧᐊᐧ",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "ᓕᐢᑕᓴᐠ ᕃᐩᑭᕙᐃᐅᑭ",
   "Override theme": "ᐅᑎᓂᐦᑖᑕᐅᐧᐃᓂᒧᐊᐧᐃᐧᐊᐧ",
   "Analytics & Marketing": "ᑲᓇᑕᒥᐦᑖᐃᐧᐊᐧ & ᑭᐢᑭᑎᐦᐃᐧᐊᐧᐃᐧᐊᐧ",
   "Promote your survey": "ᑲᑎᐦᐃᐧᐊᔨᒧᐊᐧ ᑲᓇᑕᒥᐦᑖᐃᐧᐊᐧ",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "ᑲᐧᐊᐧᐃᐧᐣ ᑕᑯᑲᐧᐃᐧᐣ",
   "secondAnswer": "ᓂᐢᑲᐧᐃᐧᐣ ᑕᑯᑲᐧᐃᐧᐣ",
   "hereIsTheQuestion": "ᑲᐧ ᑭᑎᐯᐧᐃᐧᐣ",
-  "pleaseAnswerInThisLanguage": "ᑲᐧ ᐅᑎᒥᐧᐃᐧᐣ ᑲᐧ ᐅᑎᒥᐧᐃᐧᐣ"
+  "pleaseAnswerInThisLanguage": "ᑲᐧ ᐅᑎᒥᐧᐃᐧᐣ ᑲᐧ ᐅᑎᒥᐧᐃᐧᐣ",
+  "backgroundFinish": "ᑲᓇᓇᐠ ᑲᑎᓯᑲᐠ"
 }

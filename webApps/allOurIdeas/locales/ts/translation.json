@@ -1216,12 +1216,12 @@
   "An error occurred": "Ku humelele xihoxo. Ringeta nakambe.",
   "Cancel": "Rhanga",
   "Tonal": "Tonal",
-  "Vibrant": "Vibrant",
-  "Expressive": "Expressive",
+  "Vibrant": "Rihlaza",
+  "Expressive": "Hlamusela",
   "Content": "Ntsengo",
-  "Neutral": "Neutral",
-  "Monochrome": "Monochrome",
-  "Fidelity": "Fidelity",
+  "Neutral": "Nkaye",
+  "Monochrome": "Munyama-ni-mhlophe",
+  "Fidelity": "Ntiyiso",
   "Tonal Spot": "Ndhawu ya Tonal",
   "Rainbow": "Murangi",
   "Fruit Salad": "Xitlhatlhambano xa Mihandzu",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Nhlamulo yo sungula",
   "secondAnswer": "Nhlamulo ya vumbirhi",
   "hereIsTheQuestion": "Xivutiso xi kona",
-  "pleaseAnswerInThisLanguage": "Ndzi kombela u hlamula hi ririmi leri"
+  "pleaseAnswerInThisLanguage": "Ndzi kombela u hlamula hi ririmi leri",
+  "backgroundFinish": "Ntumbuluko wa Ndzilo"
 }

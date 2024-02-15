@@ -1,8 +1,7 @@
-import { YourPrioritiesApi } from '@yrpri/api/app.js';
+import { AoiServerApi } from './app.js';
 
-const app = new YourPrioritiesApi(
+const app = new AoiServerApi(
   8000
 );
-
 
 app.listen();

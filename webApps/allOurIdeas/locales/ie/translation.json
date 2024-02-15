@@ -376,7 +376,7 @@
   "postSettings": "Post Configurationes",
   "voteSettings": "Votation Configurationes",
   "pointSettings": "Punctu Configurationes",
-  "samlLoginButtonUrl": "SAML login button URL",
+  "samlLoginButtonUrl": "URL de buton SAML login",
   "setEmailConfirmationInfo": "Ti email va esser usat por inviar te notificationes concernent contentu que tu submitte.",
   "themeOverrideColorInfo": "Stabilir colores de superposition de thema in hex. Exemple: #A1A1A1",
   "themeOverrideColorPrimary": "Color primari de thema de superposition",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Prime response",
   "secondAnswer": "Secunde response",
   "hereIsTheQuestion": "Ci es li question",
-  "pleaseAnswerInThisLanguage": "Ples responder in ti lingue"
+  "pleaseAnswerInThisLanguage": "Ples responder in ti lingue",
+  "backgroundFinish": "Funde Fini"
 }

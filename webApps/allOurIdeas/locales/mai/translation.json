@@ -1184,7 +1184,7 @@
   "hats": "टोपी",
   "dataForVisualizationJsonError": "JSON त्रुटि",
   "selectCategory": "श्रेणी चयन करू",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "इयर्ल कन्फिग",
   "show_cant_decide": "देखाउ नै सकैछ",
   "accept_new_ideas": "नयाँ विचार स्वीकार करू",
   "hide_results": "परिणाम लुकाउ",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "पहिल उत्तर",
   "secondAnswer": "दोसर उत्तर",
   "hereIsTheQuestion": "ई प्रश्न अछि",
-  "pleaseAnswerInThisLanguage": "कृपया एहि भाषा मे उत्तर दिअ"
+  "pleaseAnswerInThisLanguage": "कृपया एहि भाषा मे उत्तर दिअ",
+  "backgroundFinish": "पृष्ठभूमि समाप्त"
 }

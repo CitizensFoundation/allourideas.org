@@ -1164,11 +1164,11 @@
   "googleClientSecret": "Google Client Secret",
   "Discord Client Id": "Discord Client Id",
   "discordClientId": "Discord Client Id",
-  "Discord Client Secret": "Discord Client Secret",
-  "discordClientSecret": "Discord Client Secret",
-  "Twitter Client Id": "Twitter Client Id",
-  "twitterClientId": "Twitter Client Id",
-  "Twitter Client Secret": "Twitter Client Secret",
+  "Discord Client Secret": "Sigriet tal-Klijent Discord",
+  "discordClientSecret": "Sigriet tal-Klijent Discord",
+  "Twitter Client Id": "Id tal-Klijent Twitter",
+  "twitterClientId": "Id tal-Klijent Twitter",
+  "Twitter Client Secret": "Sigriet tal-Klijent Twitter",
   "twitterClientSecret": "Sigriet tal-Klijent Twitter",
   "groupAccess": "Aċċess tal-Grupp",
   "themeSelector": "Selettur tat-Tema",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ewwel tweġiba",
   "secondAnswer": "It-tieni tweġiba",
   "hereIsTheQuestion": "Hawnhekk il-mistoqsija",
-  "pleaseAnswerInThisLanguage": "Jekk jogħġbok tweġib f'din il-lingwa"
+  "pleaseAnswerInThisLanguage": "Jekk jogħġbok tweġib f'din il-lingwa",
+  "backgroundFinish": "Sfond"
 }

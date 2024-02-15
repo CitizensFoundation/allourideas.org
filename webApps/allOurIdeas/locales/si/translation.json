@@ -50,7 +50,7 @@
   "private": "පුද්ගලික",
   "aiAnalysis": "කෘත්‍රිම බුද්ධි විශ්ලේෂණය",
   "setThemeColor": "තේමා වර්ණය සකසන්න",
-  "whatsapp": "WhatsApp",
+  "whatsapp": "වට්ස්ඇප්",
   "No campaigns found": "කැම්පේන් හමු නොවීය",
   "Source": "මූලාශ්‍රය",
   "Top sources": "ඉහළ මූලාශ්‍ර",
@@ -649,7 +649,7 @@
   "hidePostAuthor": "පෝස්ට් කර්තෘ සඟවන්න",
   "defaultLocationLongLat": "පෙරනිමි ස්ථාන දේශාංශය, අක්ෂාංශය",
   "disableCommunityDomainUpLink": "ඩොමේන් උඩු සබැඳිය අක්‍රීය කරන්න",
-  "analyticsTrackerCode": "Google Analytics Id",
+  "analyticsTrackerCode": "ගූගල් ඇනලිටික්ස් අයිඩී",
   "filterIdeas": "අදහස් පෙරහන් කරන්න",
   "edit": "සංස්කරණය",
   "delete": "මකන්න",
@@ -1063,31 +1063,31 @@
   "other": "වෙනත්",
   "socialMedia": "සමාජ මාධ්‍ය",
   "location": {
-    "set": "Set location"
+    "set": "ස්ථානය සකසන්න"
   },
   "image": {
-    "upload": "Upload image",
+    "upload": "රූපය උඩුගත කරන්න",
     "logo": {
-      "upload": "Upload logo"
+      "upload": "ලාංඡනය උඩුගත කරන්න"
     },
     "header": {
-      "upload": "Upload header"
+      "upload": "ශීර්ෂය උඩුගත කරන්න"
     },
     "profile": {
-      "upload": "Upload profile image"
+      "upload": "පැතිකඩ රූපය උඩුගත කරන්න"
     }
   },
   "theme": {
-    "choose": "Choose a theme"
+    "choose": "තේමාවක් තෝරන්න"
   },
-  "Participate Now!": "Participate Now!",
-  "Select answers": "Select answers",
-  "Why Participate": "Why Participate",
-  "About this project": "About this project",
-  "Results": "Results",
-  "Rank-ordered list": "Rank-ordered list",
-  "Analysis of Results": "Analysis of Results",
-  "AI-generated analysis": "AI-generated analysis",
+  "Participate Now!": "දැන් සහභාගී වන්න!",
+  "Select answers": "පිළිතුරු තෝරන්න",
+  "Why Participate": "සහභාගී වීමේ හේතුව",
+  "About this project": "මෙම ව්‍යාපෘතිය පිළිබඳ",
+  "Results": "ප්‍රතිඵල",
+  "Rank-ordered list": "ශ්‍රේණිගත ලැයිස්තුව",
+  "Analysis of Results": "ප්‍රතිඵල විශ්ලේෂණය",
+  "AI-generated analysis": "AI ජනිත විශ්ලේෂණය",
   "Intro": "Intro",
   "Voting": "ඡන්දය",
   "Analysis": "විශ්ලේෂණය",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "පළමු පිළිතුර",
   "secondAnswer": "දෙවන පිළිතුර",
   "hereIsTheQuestion": "මෙන්න ප්‍රශ්නය",
-  "pleaseAnswerInThisLanguage": "මෙම භාෂාවෙන් පිළිතුරු දෙන්න"
+  "pleaseAnswerInThisLanguage": "මෙම භාෂාවෙන් පිළිතුරු දෙන්න",
+  "backgroundFinish": "පසුබිම් නිමාව"
 }

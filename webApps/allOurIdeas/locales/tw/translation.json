@@ -711,7 +711,7 @@
   "selectStatusTemplate": "Nhwɛso",
   "moveToGroup": "Soma",
   "noIdeasHere": "Ɛnhia mmoa biara wɔ ha.",
-  "organizationsAdmin": "Organizations Admin",
+  "organizationsAdmin": "Asɛmpanyin Admin",
   "unviewed": "annye hwee",
   "notificationMarkAllViewed": "Mark nyinaa sɛ ehwee",
   "notificationConfirmMarkAllViewed": "Hyɛase sɛ wopɛ sɛ wo mark nyinaa wo notifications sɛ ehwee",
@@ -848,7 +848,7 @@
     "users": "Community nkofo",
     "delete": "Pepa community",
     "new": "Sɔ community",
-    "public": "Public community",
+    "public": "Ahemman Kɔmu",
     "closed": "Ato community",
     "secret": "Ankɔ community",
     "pages": "Community Nkrataa",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Bɛsɛɛ a ɛdi kan",
   "secondAnswer": "Bɛsɛɛ a ɛto so",
   "hereIsTheQuestion": "Eyi ne aseɛ",
-  "pleaseAnswerInThisLanguage": "Mepa wo kyɛ fa kasa yi ka"
+  "pleaseAnswerInThisLanguage": "Mepa wo kyɛ fa kasa yi ka",
+  "backgroundFinish": "Akonim so"
 }

@@ -136,7 +136,7 @@
   "samlAuth": "SAML Auth",
   "basic": "Simpe",
   "webApp": "Aplicaedje Web",
-  "authApis": "Auth APIs",
+  "authApis": "APIs d'auth",
   "dontHaveAccount": "N' aveuz nén d' conte?",
   "cantRememberPassword": "N' vos rapeloz nén do mot d' passe?",
   "loginAndRegistration": "Ouvrir session eyet inscrijhaedje",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Prumî ripoûse",
   "secondAnswer": "Deujhinme ripoûse",
   "hereIsTheQuestion": "Vey ci l' kwestion",
-  "pleaseAnswerInThisLanguage": "Ripoûzîz e cisse lingaedje"
+  "pleaseAnswerInThisLanguage": "Ripoûzîz e cisse lingaedje",
+  "backgroundFinish": "Finicion d' fond"
 }

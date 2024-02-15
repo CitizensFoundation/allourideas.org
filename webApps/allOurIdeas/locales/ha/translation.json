@@ -646,7 +646,7 @@
   "hidePostAuthor": "Boye marubucin sakon",
   "defaultLocationLongLat": "Tsohon wuri longitude,latitude",
   "disableCommunityDomainUpLink": "Kashe Hanyar Haɗin Yanki",
-  "analyticsTrackerCode": "Google Analytics Id",
+  "analyticsTrackerCode": "Id na Google Analytics",
   "filterIdeas": "Tace ra'ayoyi",
   "edit": "Gyara",
   "delete": "Share",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Amsa ta farko",
   "secondAnswer": "Amsa ta biyu",
   "hereIsTheQuestion": "Ga tambayar",
-  "pleaseAnswerInThisLanguage": "Da fatan za a amsa cikin wannan yaren"
+  "pleaseAnswerInThisLanguage": "Da fatan za a amsa cikin wannan yaren",
+  "backgroundFinish": "Bayanin Baya"
 }

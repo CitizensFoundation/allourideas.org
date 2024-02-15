@@ -649,7 +649,7 @@
   "hidePostAuthor": "يازما ئاپتورىنى يوشۇر",
   "defaultLocationLongLat": "سۈكۈتتىكى ئورۇن ئۇزۇنلۇق،كەڭلىك",
   "disableCommunityDomainUpLink": "دومەن ئۇلىنىشىنى چەكلە",
-  "analyticsTrackerCode": "Google Analytics Id",
+  "analyticsTrackerCode": "Google تەھلىل ئىدى",
   "filterIdeas": "ئىدىيەلەرنى سۈزگۈچ",
   "edit": "تەھرىرلە",
   "delete": "ئۆچۈر",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "بىرىنچى جاۋاب",
   "secondAnswer": "ئىككىنچى جاۋاب",
   "hereIsTheQuestion": "مۇنداق سوئال بار",
-  "pleaseAnswerInThisLanguage": "بۇ تىلدا جاۋاب بەرگەيسىز"
+  "pleaseAnswerInThisLanguage": "بۇ تىلدا جاۋاب بەرگەيسىز",
+  "backgroundFinish": "فون رەڭگى"
 }

@@ -1159,8 +1159,8 @@
   "onlyAdminsCanCreateCommunities": "Llapa Kamachiqkuna Ayllukunata Kamariyta Atinku",
   "Facebook Client Id": "Facebook Client Id",
   "facebookClientId": "Facebook Client Id",
-  "Facebook Client Secret": "Facebook Client Secret",
-  "facebookClientSecret": "Facebook Client Secret",
+  "Facebook Client Secret": "Facebook Client Pakasqa",
+  "facebookClientSecret": "Facebook Client Pakasqa",
   "Google Client Id": "Google Client Id",
   "googleClientId": "Google Client Id",
   "Google Client Secret": "Google Cliente Pakasqa",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ñawpaq kutichiy",
   "secondAnswer": "Iskay kutichiy",
   "hereIsTheQuestion": "Kaypi tapukuy",
-  "pleaseAnswerInThisLanguage": "Kay simipi kutichiy"
+  "pleaseAnswerInThisLanguage": "Kay simipi kutichiy",
+  "backgroundFinish": "Q'ipa Tukuy"
 }

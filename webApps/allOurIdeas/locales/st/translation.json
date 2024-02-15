@@ -36,7 +36,7 @@
   "startReportCreation": "Etsa Tlaleho",
   "areYouSureYouWantToDeleteThisOrganization": "Na u kholisehile hore u batla ho hlakola mokhatlo ona?",
   "createOrganization": "Theha mokhatlo",
-  "ltpConfig": "LTP Config",
+  "ltpConfig": "LTP Phetolo",
   "welcomeHTMLforNotLoggedInUsers": "Amohela HTML bakeng sa basebelisi ba sa kena",
   "currentRealityTree": "Sefate sa Nnete sa Hajoale",
   "goalTree": "Sefate sa Sepheo",
@@ -133,7 +133,7 @@
   "generateAiImage": "Hlahisa Setšoantšo",
   "generateWithAI": "Hlahisa",
   "lookAndFeel": "Sheba le Maikutlo",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Netefatso",
   "basic": "Motheo",
   "webApp": "Web App",
   "authApis": "Auth APIs",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Karabo ea pele",
   "secondAnswer": "Karabo ea bobeli",
   "hereIsTheQuestion": "Mona potso",
-  "pleaseAnswerInThisLanguage": "Ka kopo araba ka puo ena"
+  "pleaseAnswerInThisLanguage": "Ka kopo araba ka puo ena",
+  "backgroundFinish": "Semelo sa Morao"
 }

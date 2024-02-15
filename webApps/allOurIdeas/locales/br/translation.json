@@ -498,7 +498,7 @@
   "allowPostVideoUploads": "Aotren ughelloù video post",
   "useVideoCover": "Implijout golo video",
   "postCoverVideoInfo": "Pellgargañ video e furmad HD gweledva. Hirder video brasañ eo ",
-  "postCoverAudio": "Audio",
+  "postCoverAudio": "Selaou",
   "postCoverAudioInfo": "Komz gant ur vouezh sklaer. Hirder audio brasañ eo ",
   "media": "Media",
   "removalAndDeletionInProgress": "Dilamadur ha dilemel a zo o vont en-dro. Klaskit adkargañ ar bajenn un tamm diwezhatoc'h.",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Respont kentañ",
   "secondAnswer": "Eil respont",
   "hereIsTheQuestion": "Setu ar goulenn",
-  "pleaseAnswerInThisLanguage": "Mar plij respontit er yezh-mañ"
+  "pleaseAnswerInThisLanguage": "Mar plij respontit er yezh-mañ",
+  "backgroundFinish": "Achuiñ A-dreñv"
 }

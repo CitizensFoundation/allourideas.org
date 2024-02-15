@@ -1274,7 +1274,7 @@
   "Error fetching analysis": "Analiz aluda xata",
   "Generating analysis with GPT-4": "GPT-4 belän analiz yasaw",
   "Vote Analysis": "Tavış Berü Analize",
-  "Admin": "Admin",
+  "Admin": "Админ",
   "Start Voting": "Tavış Berä Başla",
   "Open Results": "Näticälärne Aç",
   "How likely to win": "Cineñ Otelı",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Berençe cavap",
   "secondAnswer": "İkençe cavap",
   "hereIsTheQuestion": "Monda sorau",
-  "pleaseAnswerInThisLanguage": "Zinhar, bu teldä cavap biräseze"
+  "pleaseAnswerInThisLanguage": "Zinhar, bu teldä cavap biräseze",
+  "backgroundFinish": "Fon Tәmamı"
 }

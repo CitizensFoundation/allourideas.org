@@ -452,7 +452,7 @@
   "noDevicesFound": "Nisun dispusitivu di registrazione truvatu",
   "shouldAutoTranslateInfo": "Questa pagina cuntene più di una lingua, vulete attivà a traduzzione automatica?",
   "never": "Mai",
-  "no": "No",
+  "no": "Nò",
   "yes": "Iè",
   "hideDomainNews": "Piattà nutizie di duminiu",
   "voiceRecorder": "Registratore di voce",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Prima risposta",
   "secondAnswer": "Seconda risposta",
   "hereIsTheQuestion": "Quì hè a dumanda",
-  "pleaseAnswerInThisLanguage": "Per piacè risponde in sta lingua"
+  "pleaseAnswerInThisLanguage": "Per piacè risponde in sta lingua",
+  "backgroundFinish": "Finitura di Fondo"
 }

@@ -1331,7 +1331,7 @@
   "domainFraudManagement": "Кіраванне махлярствам у дамене",
   "Access": "Доступ",
   "openOrganizationMenu": "Адкрыць меню арганізацыі",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "Рэйк'явікскі музей",
   "Override theme": "Перавызначыць тэму",
   "Analytics & Marketing": "Аналітыка і маркетынг",
   "Promote your survey": "Прадавайце вашае апытанне",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Першая адказ",
   "secondAnswer": "Другі адказ",
   "hereIsTheQuestion": "Вось пытанне",
-  "pleaseAnswerInThisLanguage": "Калі ласка, адкажыце на гэтай мове"
+  "pleaseAnswerInThisLanguage": "Калі ласка, адкажыце на гэтай мове",
+  "backgroundFinish": "Фон"
 }

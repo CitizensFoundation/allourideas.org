@@ -1157,13 +1157,13 @@
   "sortBySortOrder": "क्रमणीय क्रमेण विभज्यताम्",
   "mediaUploads": "माध्यम उत्थापनम्",
   "onlyAdminsCanCreateCommunities": "केवलम् अधिकारिणः समुदायान् सृजन्तु",
-  "Facebook Client Id": "Facebook Client Id",
-  "facebookClientId": "Facebook Client Id",
-  "Facebook Client Secret": "Facebook Client Secret",
-  "facebookClientSecret": "Facebook Client Secret",
-  "Google Client Id": "Google Client Id",
-  "googleClientId": "Google Client Id",
-  "Google Client Secret": "Google Client Secret",
+  "Facebook Client Id": "Facebook ग्राहक आइडी",
+  "facebookClientId": "Facebook ग्राहक आइडी",
+  "Facebook Client Secret": "Facebook ग्राहक गुप्त",
+  "facebookClientSecret": "Facebook ग्राहक गुप्त",
+  "Google Client Id": "Google ग्राहक आइडी",
+  "googleClientId": "Google ग्राहक आइडी",
+  "Google Client Secret": "Google ग्राहक गुप्त",
   "googleClientSecret": "गूगल् ग्राहक रहस्य",
   "Discord Client Id": "डिस्कॉर्ड् ग्राहक आइडी",
   "discordClientId": "डिस्कॉर्ड् ग्राहक आइडी",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "प्रथम उत्तरम्",
   "secondAnswer": "द्वितीय उत्तरम्",
   "hereIsTheQuestion": "अत्र प्रश्नः",
-  "pleaseAnswerInThisLanguage": "कृपया अस्मिन् भाषायाम् उत्तरं दीयताम्"
+  "pleaseAnswerInThisLanguage": "कृपया अस्मिन् भाषायाम् उत्तरं दीयताम्",
+  "backgroundFinish": "पृष्ठभूमि समाप्ति"
 }

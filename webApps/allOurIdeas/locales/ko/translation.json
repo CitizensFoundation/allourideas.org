@@ -1350,5 +1350,6 @@
   "firstAnswer": "첫 번째 답변",
   "secondAnswer": "두 번째 답변",
   "hereIsTheQuestion": "여기 질문이 있습니다",
-  "pleaseAnswerInThisLanguage": "이 언어로 답해주세요"
+  "pleaseAnswerInThisLanguage": "이 언어로 답해주세요",
+  "backgroundFinish": "배경 마감"
 }

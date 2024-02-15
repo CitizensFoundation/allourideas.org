@@ -631,20 +631,20 @@
   "facebookPixelId": "Facebook pixel id",
   "downloadFacebookImagesForUser": "Daunlodim Facebook piksa bilong ol yusa i go long db bilong mipela",
   "customUserRegistrationText": "Custom yusa registration text",
-  "participateAnonymously": "Participate Anonymously",
-  "allowAnonymousUsers": "Allow anonymous users",
-  "deleteUser": "Delete user account",
+  "participateAnonymously": "Hahano hunaia",
+  "allowAnonymousUsers": "Hahano hunaia daia",
+  "deleteUser": "Bukim yusa akaunti",
   "areYouSureYouWantToDeleteUser": "Yu sure yu laikim delete account bilong yu?",
   "areYouReallySureYouWantToDeleteUser": "Yu 100% sure yu laikim delete account bilong yu? Olgeta post bilong yu, points, comments na endorsements bai lus!",
   "alternativePointForLabel": "Alternative point bilong label",
-  "alternativePointAgainstLabel": "Alternative point against label",
-  "sharePoint": "Share point",
+  "alternativePointAgainstLabel": "Hetu point agensim lebo",
+  "sharePoint": "Serim point",
   "alternativePointForHeader": "Alternative point bilong header",
-  "alternativePointAgainstHeader": "Alternative point against header",
+  "alternativePointAgainstHeader": "Hetu point agensim het",
   "or": "o",
-  "hidePointAuthor": "Hide point author",
-  "hidePostAuthor": "Hide post author",
-  "defaultLocationLongLat": "Default location longitude,latitude",
+  "hidePointAuthor": "Hunahia point auta",
+  "hidePostAuthor": "Hunahia post auta",
+  "defaultLocationLongLat": "Namba asde longitude,latitude",
   "disableCommunityDomainUpLink": "Disable Domain Up Link",
   "analyticsTrackerCode": "Google Analytics Id",
   "filterIdeas": "Sivarai hetoheto",
@@ -793,7 +793,7 @@
   },
   "pluralStatus": {
     "published": "Open ideas",
-    "successful": "Successful ideas",
+    "successful": "Bukida lasi",
     "failed": "Daure ideas",
     "inProgress": "Ideas longwe",
     "inVoting": "Ideas longwe votim"
@@ -801,7 +801,7 @@
   "activity": {
     "confirmDelete": "Konfem yu laikim deletim dispela aktiviti?",
     "post": {
-      "new": "Idea",
+      "new": "Lasi",
       "status": {
         "change": "Status apdeit"
       }
@@ -809,7 +809,7 @@
     "point": {
       "forAdded": "Adim point long",
       "againstAdded": "Adim point agensim",
-      "new": "Point",
+      "new": "Puin",
       "newFor": "Point long",
       "newAgainst": "Point agensim",
       "newComment": "Toktok",
@@ -855,7 +855,7 @@
   "posts": {
     "posts": "Aida",
     "post": "Aida",
-    "open": "Open",
+    "open": "Kekeni",
     "inProgress": "Long wok",
     "successful": "Kamapim gutpela",
     "failed": "Nogat winim",
@@ -919,13 +919,13 @@
       "image": "Piksa",
       "none": "Nokena"
     },
-    "edit": "Edit idea",
-    "delete": "Delete idea",
-    "statusChangeNoEmails": "No emails",
+    "edit": "Editim lasi",
+    "delete": "Larim lasi",
+    "statusChangeNoEmails": "No imeili",
     "haveMovedPost": "Move pinisim post",
     "photo": {
       "toast": {
-        "added": "Post Photo Added",
+        "added": "Piksa Puatim",
         "updated": "Pos Foto Apdeit"
       }
     },
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Namba wan ansa",
   "secondAnswer": "Namba tu ansa",
   "hereIsTheQuestion": "Hia emi kesen",
-  "pleaseAnswerInThisLanguage": "Plis ansa long dispela tokples"
+  "pleaseAnswerInThisLanguage": "Plis ansa long dispela tokples",
+  "backgroundFinish": "Latar Belakang Pinis"
 }

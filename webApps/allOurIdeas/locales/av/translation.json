@@ -1350,5 +1350,6 @@
   "firstAnswer": "Хьалхъа жаваб",
   "secondAnswer": "Хьуьлу жаваб",
   "hereIsTheQuestion": "Хьунин хьалхъа",
-  "pleaseAnswerInThisLanguage": "Маьрша хьун хьалхъа хьунна"
+  "pleaseAnswerInThisLanguage": "Маьрша хьун хьалхъа хьунна",
+  "backgroundFinish": "Фон хьалхар"
 }

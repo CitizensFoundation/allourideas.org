@@ -1219,7 +1219,7 @@
   "Neutral": "Sega ni dua na yatuvosa",
   "Monochrome": "Monokaroma",
   "Fidelity": "Dina",
-  "Tonal Spot": "Tonal Spot",
+  "Tonal Spot": "Tiki ni Vakavuvuli",
   "Rainbow": "Dramudramu",
   "Fruit Salad": "Vua ni Vakasoso",
   "filter": "Vakatotolo",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Imatai ni saumi",
   "secondAnswer": "Ikari ni saumi",
   "hereIsTheQuestion": "Qo na taro",
-  "pleaseAnswerInThisLanguage": "Yalovinaka, sauma ena vosa qo"
+  "pleaseAnswerInThisLanguage": "Yalovinaka, sauma ena vosa qo",
+  "backgroundFinish": "Muri Vakacavari"
 }

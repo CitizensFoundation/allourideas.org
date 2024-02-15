@@ -130,10 +130,10 @@
   "generateAiImage": "Khiqiza Isithombe",
   "generateWithAI": "Khiqiza",
   "lookAndFeel": "Ukubukeka Nokuzizwa",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Ukungena",
   "basic": "Isisekelo",
   "webApp": "Webhu App",
-  "authApis": "Auth APIs",
+  "authApis": "Ukungena APIs",
   "dontHaveAccount": "Awunayo i-akhawunti?",
   "cantRememberPassword": "Awukhumbuli iphasiwedi?",
   "loginAndRegistration": "Ngena futhi Ubhalise",
@@ -1184,7 +1184,7 @@
   "hats": "Izigqoko",
   "dataForVisualizationJsonError": "Iphutha le-JSON",
   "selectCategory": "Khetha Isigaba",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Earl Ukuhlela",
   "show_cant_decide": "Khombisa angakwazi ukunquma",
   "accept_new_ideas": "Yamukela imibono emitsha",
   "hide_results": "fihla_imiphumela",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Impendulo yokuqala",
   "secondAnswer": "Impendulo yesibili",
   "hereIsTheQuestion": "Nansi imibuzo",
-  "pleaseAnswerInThisLanguage": "Phendula ngolimi lolu"
+  "pleaseAnswerInThisLanguage": "Phendula ngolimi lolu",
+  "backgroundFinish": "Isizinda Sokuqedela"
 }

@@ -136,7 +136,7 @@
   "samlAuth": "SAML Auth",
   "basic": "Áibbas",
   "webApp": "Webbáppa",
-  "authApis": "Auth APIs",
+  "authApis": "Auth API",
   "dontHaveAccount": "Eaččat kontu?",
   "cantRememberPassword": "Muittuhit pasvorta?",
   "loginAndRegistration": "Logiheapmi ja Registrereapmi",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Vuosttaš válas",
   "secondAnswer": "Nubbi válas",
   "hereIsTheQuestion": "Dás lea dieđut",
-  "pleaseAnswerInThisLanguage": "Vállje dán giela"
+  "pleaseAnswerInThisLanguage": "Vállje dán giela",
+  "backgroundFinish": "Geahččalašvuohta"
 }

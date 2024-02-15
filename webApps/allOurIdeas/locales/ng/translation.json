@@ -34,7 +34,7 @@
   "startReportCreation": "Panga Ombiko",
   "areYouSureYouWantToDeleteThisOrganization": "Oya pewa okwa u delete ombandu yoye?",
   "createOrganization": "Panga ombandu",
-  "ltpConfig": "LTP Config",
+  "ltpConfig": "LTP Ikonfiga",
   "welcomeHTMLforNotLoggedInUsers": "Ongela HTML omuntu ota log in",
   "currentRealityTree": "Omuti wa Uule wOmbepo",
   "goalTree": "Omuti wa Eumbo",
@@ -1184,7 +1184,7 @@
   "hats": "Omakuti",
   "dataForVisualizationJsonError": "Oshitenya shaJSON",
   "selectCategory": "Sankula Category",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Earl Ikonfiga",
   "show_cant_decide": "Hangula shi ka li",
   "accept_new_ideas": "Yamukela ondjambiwa shasha",
   "hide_results": "fumbika omalitsitsi",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ombepo yopaleka",
   "secondAnswer": "Ombepo yovili",
   "hereIsTheQuestion": "Opo oshiti sha popiwa",
-  "pleaseAnswerInThisLanguage": "Kokuleka oshilongo shoka"
+  "pleaseAnswerInThisLanguage": "Kokuleka oshilongo shoka",
+  "backgroundFinish": "Ombala Oshilongo"
 }

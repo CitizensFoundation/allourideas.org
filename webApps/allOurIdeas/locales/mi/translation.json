@@ -130,7 +130,7 @@
   "generateAiImage": "Hangaia Ahua",
   "generateWithAI": "Hangaia",
   "lookAndFeel": "Ahua me te Āhua",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Whakamotuhēhēnga",
   "basic": "Taketake",
   "webApp": "Tono Tukutuku",
   "authApis": "API Auth",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Whakautu tuatahi",
   "secondAnswer": "Whakautu tuarua",
   "hereIsTheQuestion": "Anei te pātai",
-  "pleaseAnswerInThisLanguage": "Tēnā, whakautua ki tēnei reo"
+  "pleaseAnswerInThisLanguage": "Tēnā, whakautua ki tēnei reo",
+  "backgroundFinish": "Papamuri Oti"
 }

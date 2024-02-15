@@ -47,7 +47,7 @@
   "private": "ખાનગી",
   "aiAnalysis": "એઆઈ વિશ્લેષણ",
   "setThemeColor": "થીમ રંગ સેટ કરો",
-  "whatsapp": "WhatsApp",
+  "whatsapp": "વોટ્સએપ",
   "No campaigns found": "કોઈ અભિયાનો મળ્યા નથી",
   "Source": "સ્ત્રોત",
   "Top sources": "ટોચના સ્ત્રોતો",
@@ -1331,7 +1331,7 @@
   "domainFraudManagement": "ડોમેન ફ્રોડ મેનેજમેન્ટ",
   "Access": "ઍક્સેસ",
   "openOrganizationMenu": "સંસ્થા મેનુ ખોલો",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "લિસ્તાસાફ્ન રેય્કજાવિક",
   "Override theme": "થીમ ઓવરરાઇડ કરો",
   "Analytics & Marketing": "એનાલિટિક્સ અને માર્કેટિંગ",
   "Promote your survey": "તમારા સર્વેનું પ્રચાર કરો",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "પ્રથમ જવાબ",
   "secondAnswer": "બીજો જવાબ",
   "hereIsTheQuestion": "અહીં પ્રશ્ન છે",
-  "pleaseAnswerInThisLanguage": "કૃપા કરી આ ભાષામાં જવાબ આપો"
+  "pleaseAnswerInThisLanguage": "કૃપા કરી આ ભાષામાં જવાબ આપો",
+  "backgroundFinish": "પૃષ્ઠભૂમિ સમાપ્તિ"
 }

@@ -1334,7 +1334,7 @@
   "domainFraudManagement": "Gestione Fraude de Dominio",
   "Access": "Acessu",
   "openOrganizationMenu": "Aberi menù organizatzione",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "Museu de Reykjavík",
   "Override theme": "Sovrascrivi tema",
   "Analytics & Marketing": "Analítica & Marketing",
   "Promote your survey": "Promove sa retza",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Prima risposta",
   "secondAnswer": "Segunda risposta",
   "hereIsTheQuestion": "Eccu sa pregunta",
-  "pleaseAnswerInThisLanguage": "Responde in custa limba"
+  "pleaseAnswerInThisLanguage": "Responde in custa limba",
+  "backgroundFinish": "Finitura de Fundu"
 }

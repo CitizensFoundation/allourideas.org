@@ -34,7 +34,7 @@
   "startReportCreation": "Gwatanira Ripoti",
   "areYouSureYouWantToDeleteThisOrganization": "Ni wega kwiyumvira kuhuthura uyu muthamaki?",
   "createOrganization": "Gwatanira muthamaki",
-  "ltpConfig": "LTP Config",
+  "ltpConfig": "Huhithio LTP",
   "welcomeHTMLforNotLoggedInUsers": "Karibisha HTML ya abantu batariingira",
   "currentRealityTree": "Muti wa Reality wa Sasa",
   "goalTree": "Muti wa Malengo",
@@ -122,7 +122,7 @@
   "groupContent": "Njira cia kikundi",
   "postName": "Jina ya chapisho",
   "postContent": "Njira ya chapisho",
-  "noTranslation": "No Translation!",
+  "noTranslation": "Hakuna Uguo!",
   "goalConversionsLast30Min": "Maikaragio ma Murua (minuti 30 ikinyuma)",
   "error": "Kuna kosa limetokea",
   "generateImageWithAi": "Tengeneza picha na AI",
@@ -1184,7 +1184,7 @@
   "hats": "Kofia",
   "dataForVisualizationJsonError": "Kosa ya JSON",
   "selectCategory": "Hithuria Category",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Huhithio Earl",
   "show_cant_decide": "Rũgano ngĩkũgũthĩkĩra",
   "accept_new_ideas": "Kwĩra maũndũ matũhũ",
   "hide_results": "hunyua_mĩtugo",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Kwambĩra mbere",
   "secondAnswer": "Kwambĩra kĩgĩrĩ",
   "hereIsTheQuestion": "Hano ni kĩeha",
-  "pleaseAnswerInThisLanguage": "Thabuka mũrĩo ũyũ"
+  "pleaseAnswerInThisLanguage": "Thabuka mũrĩo ũyũ",
+  "backgroundFinish": "Mūkūrū wa Mūciī"
 }

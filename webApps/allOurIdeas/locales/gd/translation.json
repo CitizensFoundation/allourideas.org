@@ -130,7 +130,7 @@
   "generateAiImage": "Cruthaich Ìomhaigh",
   "generateWithAI": "Cruthaich",
   "lookAndFeel": "Coltas",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "Dearbhadh SAML",
   "basic": "Bunasach",
   "webApp": "App-lìn",
   "authApis": "APIan Auth",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "A' chiad fhreagairt",
   "secondAnswer": "An dàrna freagairt",
   "hereIsTheQuestion": "Seo an ceist",
-  "pleaseAnswerInThisLanguage": "Freagair sa chànan seo, mas e do thoil e"
+  "pleaseAnswerInThisLanguage": "Freagair sa chànan seo, mas e do thoil e",
+  "backgroundFinish": "Cùlaibh Crìochnachaidh"
 }

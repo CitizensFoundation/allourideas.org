@@ -40,7 +40,7 @@
   "goalTree": "Crann Sprioc",
   "futureRealityTree": "Crann Réaltachta Todhchaí",
   "ideaGenerationGroupType": "Giniúint smaointe",
-  "allOurIdeasGroupType": "All Our Ideas Pairwise Ranking",
+  "allOurIdeasGroupType": "Rangú Péireach All Our Ideas",
   "allowGenerativeImages": "Ceadaigh íomhánna ginte",
   "reports": "Tuarascálacha",
   "reportsInfo": "Gin tuarascálacha",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Céad freagra",
   "secondAnswer": "Dara freagra",
   "hereIsTheQuestion": "Seo í an cheist",
-  "pleaseAnswerInThisLanguage": "Freagair sa teanga seo, le do thoil"
+  "pleaseAnswerInThisLanguage": "Freagair sa teanga seo, le do thoil",
+  "backgroundFinish": "Cúlra"
 }

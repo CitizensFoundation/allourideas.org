@@ -43,7 +43,7 @@
   "allOurIdeas": "All Our Ideas",
   "futureRealityTree": "Дарахти Воқеияти Оянда",
   "ideaGenerationGroupType": "Тавлиди идея",
-  "allOurIdeasGroupType": "All Our Ideas Pairwise Ranking",
+  "allOurIdeasGroupType": "Рейтинги Ҷуфтии All Our Ideas",
   "allowGenerativeImages": "Тасвирҳои эҷодиро иҷозат диҳед",
   "reports": "Ҳисоботҳо",
   "reportsInfo": "Тавлиди ҳисоботҳо",
@@ -133,10 +133,10 @@
   "generateAiImage": "Тасвир эҷод кунед",
   "generateWithAI": "Эҷод кунед",
   "lookAndFeel": "Зоҳир ва Ҳис",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "Ҳувиятдиҳии SAML",
   "basic": "Асосӣ",
   "webApp": "Веб-барнома",
-  "authApis": "Auth APIs",
+  "authApis": "APIҳои Ҳувият",
   "dontHaveAccount": "Ҳисоб надоред?",
   "cantRememberPassword": "Рамзро фаромӯш кардед?",
   "loginAndRegistration": "Вуруд ва Бақайдгирии",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ҷавоби аввал",
   "secondAnswer": "Ҷавоби дуюм",
   "hereIsTheQuestion": "Ин савол аст",
-  "pleaseAnswerInThisLanguage": "Лутфан, ба ин забон ҷавоб диҳед"
+  "pleaseAnswerInThisLanguage": "Лутфан, ба ин забон ҷавоб диҳед",
+  "backgroundFinish": "Пасзамина"
 }

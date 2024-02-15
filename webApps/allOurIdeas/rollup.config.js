@@ -52,6 +52,9 @@ export default {
       targets: [
         { src: 'locales', dest: 'dist/' },
         { src: 'topo', dest: 'dist/' },
+        { src: 'images/*', dest: 'dist/' },
+        { src: 'oldVersionInformation.html', dest: 'dist/' },
+
       ],
     }),
     resolve(),

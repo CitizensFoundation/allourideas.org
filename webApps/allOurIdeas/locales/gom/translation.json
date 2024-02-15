@@ -692,7 +692,7 @@
   "reportConfirmation": "Tumka khatri asa ki tum he samagri niyam bhanglem mhanun report korta?",
   "uniqueStatusMessage": "Anokhi Sthiti Sandesh",
   "templateContent": "Template vishay",
-  "bulkStatusUpdate": "Bulk Status Updates",
+  "bulkStatusUpdate": "Sāmagrī Stithi Updations",
   "close": "Bandh",
   "editTemplates": "Templates badlo",
   "editTemplate": "Template badlo",
@@ -703,8 +703,8 @@
   "config": "Config",
   "newBulkStatusUpdate": "Nave Bulk Status Update",
   "editBulkStatusUpdate": "Bulk Status Update badlo",
-  "bulkStatusUdateConfig": "Bulk Status Update Config",
-  "bulkStatusUpdatesTemplates": "Bulk Status Updates Templates",
+  "bulkStatusUdateConfig": "Sāmagrī Stithi Update Config",
+  "bulkStatusUpdatesTemplates": "Sāmagrī Stithi Updates Templates",
   "selectStatusTemplate": "Template",
   "moveToGroup": "Sarko",
   "noIdeasHere": "Hanga kalpana naka.",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Pailo uttar",
   "secondAnswer": "Dusro uttar",
   "hereIsTheQuestion": "Hanga asa prashn",
-  "pleaseAnswerInThisLanguage": "Krupalu ha bhashein uttar di"
+  "pleaseAnswerInThisLanguage": "Krupalu ha bhashein uttar di",
+  "backgroundFinish": "Pāṭhabhūmi Samaāpta"
 }

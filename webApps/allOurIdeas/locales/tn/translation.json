@@ -1158,12 +1158,12 @@
   "mediaUploads": "Ditshwantsho tsa Media",
   "onlyAdminsCanCreateCommunities": "Fela Baokamedi Ba ka Bopa Ditlhopha",
   "Facebook Client Id": "Facebook Client Id",
-  "facebookClientId": "Facebook Client Id",
-  "Facebook Client Secret": "Facebook Client Secret",
-  "facebookClientSecret": "Facebook Client Secret",
-  "Google Client Id": "Google Client Id",
-  "googleClientId": "Google Client Id",
-  "Google Client Secret": "Google Client Secret",
+  "facebookClientId": "Facebook Moreki Id",
+  "Facebook Client Secret": "Facebook Moreki Lekunutu",
+  "facebookClientSecret": "Facebook Moreki Lekunutu",
+  "Google Client Id": "Google Moreki Id",
+  "googleClientId": "Google Moreki Id",
+  "Google Client Secret": "Google Moreki Lekunutu",
   "googleClientSecret": "Google Morekisi Lekunutu",
   "Discord Client Id": "Discord Morekisi Id",
   "discordClientId": "Discord Morekisi Id",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Karabo ya ntlha",
   "secondAnswer": "Karabo ya bobedi",
   "hereIsTheQuestion": "Fano ke potso",
-  "pleaseAnswerInThisLanguage": "Ka kopo araba ka puo eno"
+  "pleaseAnswerInThisLanguage": "Ka kopo araba ka puo eno",
+  "backgroundFinish": "Semelo sa Morago"
 }

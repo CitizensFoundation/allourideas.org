@@ -1248,7 +1248,7 @@
   "Background": "Nímasii",
   "Surface Dim": "Surface Dim",
   "Surface": "Surface",
-  "Surface Bright": "Surface Bright",
+  "Surface Bright": "Bikáá' dah siłání",
   "Surface Variant": "Biih Bitłʼóól",
   "Surface Container Lowest": "Biih Yishtłizhígíí Baa Haneʼé",
   "Surface Container Low": "Biih Yishtłizhígíí Baa Haneʼ",
@@ -1291,7 +1291,7 @@
   "Last month": "Baa ákót'éego",
   "Custom range": "T'áá ałtso bighan",
   "Completed goal": "Baa ákót'éehígíí",
-  "Browser": "Browser",
+  "Browser": "Neeshjaa'",
   "Country": "Ałk'idą́ą́'",
   "Region": "Ałk'idą́ą́' bighan",
   "City": "Lókʼaaʼ",
@@ -1312,7 +1312,7 @@
   "Exit page": "Nahxit page",
   "Unique Exits": "T'áá hwó ají t'áá ííł'íní",
   "Page Visits": "Page Baa Hane'",
-  "Page": "Page",
+  "Page": "Bił haz'ání",
   "Top Sources": "Bilh Hasin Dootł'izh",
   "UTM": "UTM",
   "All": "T'ááłá'í",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ákót’éego ałní’ní’",
   "secondAnswer": "Naaki ałní’ní’",
   "hereIsTheQuestion": "Díí nahałtin",
-  "pleaseAnswerInThisLanguage": "Bilagáana bizaad yá’át’ééhgo ałní’ní’"
+  "pleaseAnswerInThisLanguage": "Bilagáana bizaad yá’át’ééhgo ałní’ní’",
+  "backgroundFinish": "Asdzą́ą́ Nihí"
 }

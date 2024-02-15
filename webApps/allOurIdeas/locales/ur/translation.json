@@ -827,7 +827,7 @@
     "createOrganization": "تنظیم بنائیں",
     "edit": "ڈومین میں ترمیم کریں",
     "info": "ترتیبات",
-    "apis": "APIs",
+    "apis": "اے پی آئیز",
     "settings": "اضافی",
     "onlyAdminsCanCreateCommunities": "صرف منتظمین برادریاں بنا سکتے ہیں"
   },
@@ -1317,7 +1317,7 @@
   "Page Visits": "صفحہ دورے",
   "Page": "صفحہ",
   "Top Sources": "اہم ذرائع",
-  "UTM": "UTM",
+  "UTM": "یو ٹی ایم",
   "All": "سب",
   "duplicate": "نقل",
   "New category": "نئی قسم",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "پہلا جواب",
   "secondAnswer": "دوسرا جواب",
   "hereIsTheQuestion": "یہاں سوال ہے",
-  "pleaseAnswerInThisLanguage": "براہ کرم اس زبان میں جواب دیں"
+  "pleaseAnswerInThisLanguage": "براہ کرم اس زبان میں جواب دیں",
+  "backgroundFinish": "پس منظر ختم"
 }

@@ -50,7 +50,7 @@
   "private": "ਨਿੱਜੀ",
   "aiAnalysis": "AI ਵਿਸ਼ਲੇਸ਼ਣ",
   "setThemeColor": "ਥੀਮ ਰੰਗ ਸੈੱਟ ਕਰੋ",
-  "whatsapp": "WhatsApp",
+  "whatsapp": "ਵ੍ਹਟਸਐਪ",
   "No campaigns found": "ਕੋਈ ਮੁਹਿੰਮ ਨਹੀਂ ਮਿਲੀ",
   "Source": "ਸਰੋਤ",
   "Top sources": "ਸਿਖਰ ਸਰੋਤ",
@@ -649,7 +649,7 @@
   "hidePostAuthor": "ਪੋਸਟ ਲੇਖਕ ਓਹਲੇ",
   "defaultLocationLongLat": "ਡਿਫਾਲਟ ਸਥਾਨ ਲੰਬਾਈ,ਅਕਸ਼ਾਂਸ",
   "disableCommunityDomainUpLink": "ਡੋਮੇਨ ਅੱਪ ਲਿੰਕ ਅਸਮਰੱਥ ਕਰੋ",
-  "analyticsTrackerCode": "Google Analytics Id",
+  "analyticsTrackerCode": "ਗੂਗਲ ਐਨਾਲਿਟਿਕਸ ਆਈਡੀ",
   "filterIdeas": "ਵਿਚਾਰਾਂ ਨੂੰ ਫਿਲਟਰ ਕਰੋ",
   "edit": "ਸੋਧੋ",
   "delete": "ਮਿਟਾਓ",
@@ -827,7 +827,7 @@
     "createOrganization": "ਸੰਗਠਨ ਬਣਾਓ",
     "edit": "ਡੋਮੇਨ ਸੋਧੋ",
     "info": "ਸੈਟਿੰਗਾਂ",
-    "apis": "APIs",
+    "apis": "ਏਪੀਆਈਜ਼",
     "settings": "ਵਾਧੂ",
     "onlyAdminsCanCreateCommunities": "ਕੇਵਲ ਪਰਬੰਧਕ ਹੀ ਭਾਈਚਾਰੇ ਬਣਾ ਸਕਦੇ ਹਨ"
   },
@@ -1317,7 +1317,7 @@
   "Page Visits": "ਪੰਨਾ ਦੌਰੇ",
   "Page": "ਪੰਨਾ",
   "Top Sources": "ਸਿਖਰ ਸਰੋਤ",
-  "UTM": "UTM",
+  "UTM": "ਯੂਟੀਐਮ",
   "All": "ਸਭ",
   "duplicate": "ਡੁਪਲਿਕੇਟ",
   "New category": "ਨਵੀਂ ਸ਼੍ਰੇਣੀ",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "ਪਹਿਲਾ ਜਵਾਬ",
   "secondAnswer": "ਦੂਜਾ ਜਵਾਬ",
   "hereIsTheQuestion": "ਇੱਥੇ ਸਵਾਲ ਹੈ",
-  "pleaseAnswerInThisLanguage": "ਕ੍ਰਿਪਾ ਕਰਕੇ ਇਸ ਭਾਸ਼ਾ ਵਿੱਚ ਜਵਾਬ ਦਿਓ"
+  "pleaseAnswerInThisLanguage": "ਕ੍ਰਿਪਾ ਕਰਕੇ ਇਸ ਭਾਸ਼ਾ ਵਿੱਚ ਜਵਾਬ ਦਿਓ",
+  "backgroundFinish": "ਪਿਛੋਕੜ ਮੁਕੰਮਲ"
 }

@@ -34,7 +34,7 @@
   "startReportCreation": "Tángá Lipótó",
   "areYouSureYouWantToDeleteThisOrganization": "Ozali na likoki ya kolongola etóngó oyo?",
   "createOrganization": "Tángá etóngó",
-  "ltpConfig": "LTP Config",
+  "ltpConfig": "Bokonzi ya LTP",
   "welcomeHTMLforNotLoggedInUsers": "Mbote HTML mpo na bato bazangi kokota",
   "currentRealityTree": "Nzete ya Realité ya Sika",
   "goalTree": "Nzete ya Mikano",
@@ -132,7 +132,7 @@
   "lookAndFeel": "Talatala ná Ndenge",
   "samlAuth": "SAML Auth",
   "basic": "Pembeni",
-  "webApp": "Web App",
+  "webApp": "Appli Web",
   "authApis": "Auth APIs",
   "dontHaveAccount": "Ozali na compte te?",
   "cantRememberPassword": "Okoki kobosana mot de passe?",
@@ -1184,7 +1184,7 @@
   "hats": "Mapu",
   "dataForVisualizationJsonError": "Mokosa ya JSON",
   "selectCategory": "Pona Catégorie",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Bokonzi ya Earl",
   "show_cant_decide": "Komona te kokoka",
   "accept_new_ideas": "Yamba makanisi sika",
   "hide_results": "bomba_bisoso",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Eyano ya liboso",
   "secondAnswer": "Eyano ya mibale",
   "hereIsTheQuestion": "Tala motuna oyo",
-  "pleaseAnswerInThisLanguage": "Yanola na monɔkɔ oyo"
+  "pleaseAnswerInThisLanguage": "Yanola na monɔkɔ oyo",
+  "backgroundFinish": "Mokɔlɔ ya Nsima"
 }

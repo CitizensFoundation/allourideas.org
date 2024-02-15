@@ -132,7 +132,7 @@
   "lookAndFeel": "Lestura yan Sensasion",
   "samlAuth": "SAML Auth",
   "basic": "Båsiku",
-  "webApp": "Web App",
+  "webApp": "Applikasion Web",
   "authApis": "Auth APIs",
   "dontHaveAccount": "Ti tiene cuenta?",
   "cantRememberPassword": "Manmanman tanda' password?",
@@ -191,7 +191,7 @@
   "customFilterText": "Kostumbre teksto filtru",
   "orderGroupsByRandom": "Ordena grupon pot di random",
   "customCategoryQuestionText": "Kostumbre kuestion kategoria",
-  "plausibleDataDomains": "Plausible data domains",
+  "plausibleDataDomains": "Dominios datos Plausible",
   "customTabTitleNewLocation": "Kostumbre titulo tab para lokasion nobio",
   "cloneGroup": "Kopia grupon",
   "areYouSureCloneGroup": "Siguru ba hao na bai hu kopia este na grupo?",
@@ -489,7 +489,7 @@
   "audioPostUploadLimitSec": "Limit di post audio gi segundu (maks 600s)",
   "audioPointUploadLimitSec": "Limit di punto audio gi segundu (maks 600s)",
   "postCoverVideo": "Video",
-  "uploadVideo": "Video",
+  "uploadVideo": "Vidio",
   "uploadCompleted": "Taya'i kompletu",
   "uploadingVideo": "Taya'i video...",
   "uploadingImage": "Taya'i litrato...",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Primeru na tuge",
   "secondAnswer": "Segundu na tuge",
   "hereIsTheQuestion": "Aqui i lekna",
-  "pleaseAnswerInThisLanguage": "Fan umatuna gi este na le'nge'"
+  "pleaseAnswerInThisLanguage": "Fan umatuna gi este na le'nge'",
+  "backgroundFinish": "Trasfondo"
 }

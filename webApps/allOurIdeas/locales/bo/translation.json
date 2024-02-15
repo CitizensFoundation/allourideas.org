@@ -646,7 +646,7 @@
   "hidePostAuthor": "བརྒྱུད་པའི་མིང་བསྐྱར་བ།",
   "defaultLocationLongLat": "ས་གནས་གཡོན་དུས་ཚོད་ལོང་ལ་ཏི།",
   "disableCommunityDomainUpLink": "དོ་མེན་གྱི་ཡོང་བ་བཀོལ་བ།",
-  "analyticsTrackerCode": "Google Analytics Id",
+  "analyticsTrackerCode": "Google བསྒྲུབ་རིམ་ཨིན་རིམ",
   "filterIdeas": "གསར་འགྱུར་སེལ་བཤེར།",
   "edit": "ཞུན་དག",
   "delete": "སུབ།",
@@ -1184,7 +1184,7 @@
   "hats": "མགོ།",
   "dataForVisualizationJsonError": "JSON འཛོལ་བ།",
   "selectCategory": "སྡེ་རིམ་གདམ།",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Earl སྒྲིག་བཀོལ་",
   "show_cant_decide": "བསྐྱར་བཏང་མི་ཐུབ",
   "accept_new_ideas": "གསར་བའི་བསམ་གཏན་དགོས་པ།",
   "hide_results": "གྲངས་སྐོར་སྦས།",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "དང་པོའི་ལན",
   "secondAnswer": "གཉིས་པའི་ལན",
   "hereIsTheQuestion": "དྲི་བ་འདི་ནི",
-  "pleaseAnswerInThisLanguage": "འདི་གི་སྐད་དུ་ལན་བསྒྲིགས།"
+  "pleaseAnswerInThisLanguage": "འདི་གི་སྐད་དུ་ལན་བསྒྲིགས།",
+  "backgroundFinish": "རྒྱབ་སྐྱེས་བཟོ་བཅོས།"
 }

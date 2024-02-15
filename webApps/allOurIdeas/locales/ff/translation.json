@@ -1103,7 +1103,7 @@
   "Translations": "Fassararai",
   "Organizations": "Kungiyoyi",
   "Users": "Masu amfani",
-  "Admins": "Admins",
+  "Admins": "Adminoɓe",
   "Moderation": "Moderasiyon",
   "Pages": "Shafuka",
   "Groups": "Kungiyoyi",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ñaawoore ɗoo",
   "secondAnswer": "Ñaawoore njiɗi",
   "hereIsTheQuestion": "Nan no ɗum ko",
-  "pleaseAnswerInThisLanguage": "Miɗo waawi aɗaama e ɗemngal ɗee"
+  "pleaseAnswerInThisLanguage": "Miɗo waawi aɗaama e ɗemngal ɗee",
+  "backgroundFinish": "Ndogal Sufli"
 }

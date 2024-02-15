@@ -899,7 +899,7 @@
     "yourPost": "Idea",
     "yourPoint": "Punto para",
     "location": "Lugar",
-    "photographerName": "Photographer",
+    "photographerName": "Potograpo",
     "newPhoto": "Baro nga litrato",
     "photoUpdate": "Panagbaliw ti litrato",
     "photoDeleteConfirmation": "Sigurado ka nga kayat mo nga ikkat ti daytoy nga litrato?",
@@ -943,7 +943,7 @@
     "the_all": "Amin nga kategoria"
   },
   "point": {
-    "report": "Report",
+    "report": "Reporte",
     "againstAdded": "Naidagdag a punto kontra",
     "forAdded": "Naidagdag a punto para",
     "confirmDelete": "Kumpirmarem nga kayatmo nga ikkat daytoy punto",
@@ -1219,7 +1219,7 @@
   "Neutral": "Neutro",
   "Monochrome": "Monokromo",
   "Fidelity": "Katapatan",
-  "Tonal Spot": "Tonal Spot",
+  "Tonal Spot": "Lugar ti Tonal",
   "Rainbow": "Balangaw",
   "Fruit Salad": "Prutas Salad",
   "filter": "Salain",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Umuna nga simmubok",
   "secondAnswer": "Maikadua nga simmubok",
   "hereIsTheQuestion": "Daytoy ti panagkukua",
-  "pleaseAnswerInThisLanguage": "Pangngaasi nga isubli iti daytoy nga pagsasao"
+  "pleaseAnswerInThisLanguage": "Pangngaasi nga isubli iti daytoy nga pagsasao",
+  "backgroundFinish": "Kulay ti Likud"
 }

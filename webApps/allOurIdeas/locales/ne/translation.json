@@ -1350,5 +1350,6 @@
   "firstAnswer": "पहिलो उत्तर",
   "secondAnswer": "दोस्रो उत्तर",
   "hereIsTheQuestion": "यहाँ प्रश्न छ",
-  "pleaseAnswerInThisLanguage": "कृपया यस भाषामा उत्तर दिनुहोस्"
+  "pleaseAnswerInThisLanguage": "कृपया यस भाषामा उत्तर दिनुहोस्",
+  "backgroundFinish": "पृष्ठभूमि समाप्त"
 }

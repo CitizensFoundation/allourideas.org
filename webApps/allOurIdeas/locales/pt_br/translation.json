@@ -797,7 +797,7 @@
     "openToCommunity": "Aberto à comunidade",
     "canVote": "Votação permitida",
     "canAddNewPosts": "Novas ideias permitidas",
-    "config": "Config",
+    "config": "Configuração",
     "update": "Atualizar grupo"
   },
   "membership": {
@@ -1107,7 +1107,7 @@
   "Translations": "Traduções",
   "Organizations": "Organizações",
   "Users": "Usuários",
-  "Admins": "Admins",
+  "Admins": "Administradores",
   "Moderation": "Moderação",
   "Pages": "Páginas",
   "Groups": "Grupos",
@@ -1275,7 +1275,7 @@
   "Error fetching analysis": "Erro ao buscar análise",
   "Generating analysis with GPT-4": "Gerando análise com GPT-4",
   "Vote Analysis": "Análise de Votos",
-  "Admin": "Admin",
+  "Admin": "Administrador",
   "Start Voting": "Iniciar Votação",
   "Open Results": "Abrir Resultados",
   "How likely to win": "Probabilidade de ganhar",
@@ -1350,11 +1350,12 @@
   "explainBothAnswers": "Explicação das respostas",
   "allOurIdeas": "All Our Ideas",
   "ideaGenerationGroupType": "Geração de ideias",
-  "allOurIdeasGroupType": "All Our Ideas Pairwise Ranking",
+  "allOurIdeasGroupType": "All Our Ideas Classificação Pareada",
   "yourIdeaHasBeenAdded": "Sua ideia foi adicionada, gerando ícone.",
   "aiIconInfo": "Um ícone para sua resposta está sendo gerado, você pode fechar a janela ou esperar pelo ícone. Também terá a opção de regerar o ícone.",
   "firstAnswer": "Primeira resposta",
   "secondAnswer": "Segunda resposta",
   "hereIsTheQuestion": "Aqui está a pergunta",
-  "pleaseAnswerInThisLanguage": "Por favor, responda neste idioma"
+  "pleaseAnswerInThisLanguage": "Por favor, responda neste idioma",
+  "backgroundFinish": "Acabamento"
 }

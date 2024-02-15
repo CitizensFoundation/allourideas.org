@@ -1350,5 +1350,6 @@
   "firstAnswer": "Første svar",
   "secondAnswer": "Andre svar",
   "hereIsTheQuestion": "Her er spørsmålet",
-  "pleaseAnswerInThisLanguage": "Svar på dette språket"
+  "pleaseAnswerInThisLanguage": "Svar på dette språket",
+  "backgroundFinish": "Bakgrunnsfinish"
 }

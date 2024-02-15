@@ -1157,13 +1157,13 @@
   "sortBySortOrder": "ترتيب مطابق چونڊيو",
   "mediaUploads": "ميڊيا اپلوڊ",
   "onlyAdminsCanCreateCommunities": "صرف ايڊمن ڪميونٽي ٺاهي سگهن ٿا",
-  "Facebook Client Id": "Facebook Client Id",
-  "facebookClientId": "Facebook Client Id",
-  "Facebook Client Secret": "Facebook Client Secret",
-  "facebookClientSecret": "Facebook Client Secret",
-  "Google Client Id": "Google Client Id",
-  "googleClientId": "Google Client Id",
-  "Google Client Secret": "Google Client Secret",
+  "Facebook Client Id": "فيسبوڪ گراهڪ شناخت",
+  "facebookClientId": "فيسبوڪ گراهڪ شناخت",
+  "Facebook Client Secret": "فيسبوڪ گراهڪ راز",
+  "facebookClientSecret": "فيسبوڪ گراهڪ راز",
+  "Google Client Id": "گوگل گراهڪ شناخت",
+  "googleClientId": "گوگل گراهڪ شناخت",
+  "Google Client Secret": "گوگل گراهڪ راز",
   "googleClientSecret": "گوگل گراهڪ خفيه",
   "Discord Client Id": "ڊسڪارڊ گراهڪ شناخت",
   "discordClientId": "ڊسڪارڊ گراهڪ شناخت",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "پهريون جواب",
   "secondAnswer": "ٻيون جواب",
   "hereIsTheQuestion": "هتي سوال آهي",
-  "pleaseAnswerInThisLanguage": "مهرباني ڪري اهي ٻولي ۾ جواب ڏيو"
+  "pleaseAnswerInThisLanguage": "مهرباني ڪري اهي ٻولي ۾ جواب ڏيو",
+  "backgroundFinish": "پس منظر ختم"
 }

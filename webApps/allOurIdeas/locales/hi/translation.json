@@ -824,7 +824,7 @@
     "createOrganization": "संगठन बनाएं",
     "edit": "डोमेन संपादित करें",
     "info": "सेटिंग्स",
-    "apis": "APIs",
+    "apis": "एपीआई",
     "settings": "अतिरिक्त",
     "onlyAdminsCanCreateCommunities": "केवल व्यवस्थापक समुदाय बना सकते हैं"
   },
@@ -1350,5 +1350,6 @@
   "firstAnswer": "पहला उत्तर",
   "secondAnswer": "दूसरा उत्तर",
   "hereIsTheQuestion": "यहाँ प्रश्न है",
-  "pleaseAnswerInThisLanguage": "कृपया इस भाषा में उत्तर दें"
+  "pleaseAnswerInThisLanguage": "कृपया इस भाषा में उत्तर दें",
+  "backgroundFinish": "पृष्ठभूमि समाप्त"
 }

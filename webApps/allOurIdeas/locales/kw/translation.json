@@ -133,7 +133,7 @@
   "samlAuth": "SAML Auth",
   "basic": "Egnes",
   "webApp": "Gwelesva Web",
-  "authApis": "Auth APIs",
+  "authApis": "APIow Auth",
   "dontHaveAccount": "Nyns esowgh akont?",
   "cantRememberPassword": "Nyns yllowgh kov a gewser?",
   "loginAndRegistration": "Omgelmy ha Kofrestryans",
@@ -1184,7 +1184,7 @@
   "hats": "Hetow",
   "dataForVisualizationJsonError": "Gwall JSON",
   "selectCategory": "Dewis Klass",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Config Earl",
   "show_cant_decide": "Diskwedh na allav dewis",
   "accept_new_ideas": "Derivas synsyow nowydh",
   "hide_results": "kudha_displegyansow",
@@ -1227,7 +1227,7 @@
   "Thinking": "Ow Sova...",
   "Send": "Danvon",
   "typing": "Tippa",
-  "record": "Tecord",
+  "record": "Cofnodi",
   "send": "Danvon",
   "Dynamic Colors": "Liwow Dynasek",
   "One Dynamic Color": "Onan Liw Dynasek",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Kynsa ateb",
   "secondAnswer": "Eil ateb",
   "hereIsTheQuestion": "Omma an gwestyon",
-  "pleaseAnswerInThisLanguage": "Mar pleg, ateb yn y taves-ma"
+  "pleaseAnswerInThisLanguage": "Mar pleg, ateb yn y taves-ma",
+  "backgroundFinish": "Cefndir Gorffen"
 }

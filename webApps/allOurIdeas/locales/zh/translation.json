@@ -1350,5 +1350,6 @@
   "firstAnswer": "第一个答案",
   "secondAnswer": "第二个答案",
   "hereIsTheQuestion": "这是问题",
-  "pleaseAnswerInThisLanguage": "请用这种语言回答"
+  "pleaseAnswerInThisLanguage": "请用这种语言回答",
+  "backgroundFinish": "背景效果"
 }

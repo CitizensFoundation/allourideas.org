@@ -827,7 +827,7 @@
     "createOrganization": "Sos pënduwaay",
     "edit": "Soppi turu domain",
     "info": "Paramètres",
-    "apis": "APIs",
+    "apis": "APIyoo",
     "settings": "Jëfandikukat",
     "onlyAdminsCanCreateCommunities": "Rekk admin yi man nañu ayy bëj-saalum"
   },
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ñaareelu tontu",
   "secondAnswer": "Ñetteelu tontu",
   "hereIsTheQuestion": "Fii la suñu laaj",
-  "pleaseAnswerInThisLanguage": "Nii nga tontu ci lii"
+  "pleaseAnswerInThisLanguage": "Nii nga tontu ci lii",
+  "backgroundFinish": "Njabootu Dal"
 }

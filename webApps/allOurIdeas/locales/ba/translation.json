@@ -1331,7 +1331,7 @@
   "domainFraudManagement": "Домен Фишинг Идараһы",
   "Access": "Кереү",
   "openOrganizationMenu": "Ойошма менюһын асырға",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "Рейкьявик сәнғәт галереяһы",
   "Override theme": "Теманы кире ҡағыу",
   "Analytics & Marketing": "Аналитика һәм Маркетинг",
   "Promote your survey": "Һорауығыҙҙы промоциялау",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Беренсе яуап",
   "secondAnswer": "Икенсе яуап",
   "hereIsTheQuestion": "Был һорау",
-  "pleaseAnswerInThisLanguage": "Зинһар, был телдә яуап бирегеҙ"
+  "pleaseAnswerInThisLanguage": "Зинһар, был телдә яуап бирегеҙ",
+  "backgroundFinish": "Фон тамамлау"
 }

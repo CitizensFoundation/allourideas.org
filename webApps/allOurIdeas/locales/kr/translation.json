@@ -704,15 +704,15 @@
   "newBulkStatusUpdate": "Sabuwar Jumlar Matsayi",
   "editBulkStatusUpdate": "Shirya Jumlar Matsayi",
   "bulkStatusUdateConfig": "Bulk Status Update Saiti",
-  "bulkStatusUpdatesTemplates": "Bulk Status Updates Templates",
-  "selectStatusTemplate": "Template",
+  "bulkStatusUpdatesTemplates": "Dumfarar Juyin Jiki Samfura",
+  "selectStatusTemplate": "Samfura",
   "moveToGroup": "Kuɗa",
   "noIdeasHere": "Ideas nanam ba.",
-  "organizationsAdmin": "Organizations Admin",
+  "organizationsAdmin": "Kungiyoyin Admin",
   "unviewed": "ba kallo",
   "notificationMarkAllViewed": "Duk kallo",
   "notificationConfirmMarkAllViewed": "Tabbatar da ka kallo duk sanarwa",
-  "upVotedPoint": "Up voted your point",
+  "upVotedPoint": "An zaba ra'ayinka",
   "downVotedPoint": "Ngalgami koy ngolno",
   "endorsedYourPost": "Tace ngolno",
   "opposedYourPost": "Tawo ngolno",
@@ -919,23 +919,23 @@
       "image": "Hoto",
       "none": "Babu"
     },
-    "edit": "Edit idea",
-    "delete": "Delete idea",
-    "statusChangeNoEmails": "No emails",
-    "haveMovedPost": "Have moved post",
+    "edit": "Shirya ra'ayi",
+    "delete": "Share ra'ayi",
+    "statusChangeNoEmails": "Babu imel",
+    "haveMovedPost": "An motsa sakon",
     "photo": {
       "toast": {
-        "added": "Post Photo Added",
-        "updated": "Posts Photo Updated"
+        "added": "Hoto Tacewa",
+        "updated": "Hotuna Tacewa"
       }
     },
-    "addNewIntroBoxText": "Use the lightbulb action button to add new ideas"
+    "addNewIntroBoxText": "Wuɗi da maɓallin aiki na fitila don ƙara sabbin ra'ayoyi"
   },
   "short_word": {
-    "in": "in"
+    "in": "ciki"
   },
   "category": {
-    "new": "New category",
+    "new": "Sabuwar rukuni",
     "select": "Zabi kategiri"
   },
   "categories": {
@@ -1140,7 +1140,7 @@
   "Theme, language, etc": "Jigo, yare, da sauransu",
   "Manage badges": "Tafiyar da badges",
   "Manage profile images": "Tafiyar da profile images",
-  "Config": "Config",
+  "Config": "Saiti",
   "New Community": "Sabuwar Al'umma",
   "Name": "Sunan",
   "Description": "Bayani",
@@ -1219,17 +1219,17 @@
   "Neutral": "M",
   "Monochrome": "Monochrome",
   "Fidelity": "Fidelity",
-  "Tonal Spot": "Tonal Spot",
-  "Rainbow": "Rainbow",
-  "Fruit Salad": "Fruit Salad",
-  "filter": "Filter",
-  "attachmentUpload": "Attachment Upload",
-  "Thinking": "Thinking...",
-  "Send": "Send",
-  "typing": "Typing",
+  "Tonal Spot": "Tonal Wuri",
+  "Rainbow": "Bakan Gizo",
+  "Fruit Salad": "Salatin 'Ya'yan itace",
+  "filter": "Tace",
+  "attachmentUpload": "Dokewar Makala",
+  "Thinking": "Tunanin...",
+  "Send": "Sendi",
+  "typing": "Kewaya",
   "record": "Tecord",
-  "send": "Send",
-  "Dynamic Colors": "Dynamic Colors",
+  "send": "Sendi",
+  "Dynamic Colors": "Launin Dabam",
   "One Dynamic Color": "Daya Dinamic Kala",
   "Custom Colors": "Al'ada Launuka",
   "Theme Primary Color": "Jigo Farko Launi",
@@ -1246,10 +1246,10 @@
   "Error": "Kuskure",
   "Error Container": "Kuskure Akwati",
   "Background": "Bayan fage",
-  "Surface Dim": "Surface Dim",
-  "Surface": "Surface",
+  "Surface Dim": "Dushewa Dim",
+  "Surface": "Dushewa",
   "Surface Bright": "Surface Haske",
-  "Surface Variant": "Surface Variant",
+  "Surface Variant": "Dushewa Nau'i",
   "Surface Container Lowest": "Surface Akwati Kadan",
   "Surface Container Low": "Surface Akwati Kasa",
   "Surface Container": "Surface Akwati",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Farko amsa",
   "secondAnswer": "Na biyu amsa",
   "hereIsTheQuestion": "Nan gana tambaya",
-  "pleaseAnswerInThisLanguage": "Don Allah amsa cikin wannan yare"
+  "pleaseAnswerInThisLanguage": "Don Allah amsa cikin wannan yare",
+  "backgroundFinish": "Bayan Fage"
 }

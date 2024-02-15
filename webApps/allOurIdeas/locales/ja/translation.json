@@ -1184,7 +1184,7 @@
   "hats": "帽子",
   "dataForVisualizationJsonError": "JSONエラー",
   "selectCategory": "カテゴリ選択",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "イヤル設定",
   "show_cant_decide": "決めかねる表示",
   "accept_new_ideas": "新しいアイデアを受け入れる",
   "hide_results": "結果を隠す",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "最初の回答",
   "secondAnswer": "二番目の回答",
   "hereIsTheQuestion": "ここに質問があります",
-  "pleaseAnswerInThisLanguage": "この言語で回答してください"
+  "pleaseAnswerInThisLanguage": "この言語で回答してください",
+  "backgroundFinish": "背景仕上げ"
 }

@@ -491,7 +491,7 @@
   "postCoverVideo": "Yees duab",
   "uploadVideo": "Yees duab",
   "uploadCompleted": "Upload tiav",
-  "uploadingVideo": "Uploading video...",
+  "uploadingVideo": "Tabtom Upload Video...",
   "uploadingImage": "Uploading duab...",
   "transcodingVideo": "Npaj video...",
   "hidePostImageUploads": "Nkaum post duab uploads",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Lus teb thawj",
   "secondAnswer": "Lus teb ob",
   "hereIsTheQuestion": "Nov yog lo lus nug",
-  "pleaseAnswerInThisLanguage": "Thov teb hauv hom lus no"
+  "pleaseAnswerInThisLanguage": "Thov teb hauv hom lus no",
+  "backgroundFinish": "Kev Kawm Ntxov"
 }

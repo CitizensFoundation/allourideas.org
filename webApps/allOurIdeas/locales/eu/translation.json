@@ -130,7 +130,7 @@
   "generateAiImage": "Sortu Irudia",
   "generateWithAI": "Sortu",
   "lookAndFeel": "Itxura eta Sentsazioa",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Egiaztapena",
   "basic": "Oinarrizkoa",
   "webApp": "Web Aplikazioa",
   "authApis": "Auth APIak",
@@ -500,7 +500,7 @@
   "postCoverVideoInfo": "Igo bideoa HD paisaia formatuan. Gehienezko bideoaren luzera ",
   "postCoverAudio": "Audioa",
   "postCoverAudioInfo": "Hitza egin argi. Gehienezko audioaren luzera ",
-  "media": "Media",
+  "media": "Multimedia",
   "removalAndDeletionInProgress": "Ezabatze eta kendutzea martxan da. Saiatu orrialdea berriro kargatzen pixka bat geroago.",
   "removalsAndDeletionsInProgress": "Ezabatzeak eta kendutzeak martxan daude baina denbora bat har dezakete erabiltzaile kopuruaren arabera. Saiatu orrialdea berriro kargatzen pixka bat geroago.",
   "removalsInProgress": "Kendutzeak martxan daude baina denbora bat har dezakete osatzeko, erabiltzaile kopuruaren arabera. Saiatu orrialdea berriro kargatzen pixka bat geroago.",
@@ -1033,7 +1033,7 @@
     "loggedInWithSaml": "SAML bidez saioa hasi da",
     "loggedInWithFacebook": "Facebook bidez saioa hasi da",
     "facebookLogin": "Facebook saioa hasi",
-    "info": "Info",
+    "info": "Informazioa",
     "notifications": "Jakinarazpenak",
     "name": "Izen osoa",
     "email": "Posta elektronikoa",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Lehen erantzuna",
   "secondAnswer": "Bigarren erantzuna",
   "hereIsTheQuestion": "Hemen da galdera",
-  "pleaseAnswerInThisLanguage": "Mesedez, erantzun hizkuntza honetan"
+  "pleaseAnswerInThisLanguage": "Mesedez, erantzun hizkuntza honetan",
+  "backgroundFinish": "Atzeko Planoaren Akabera"
 }

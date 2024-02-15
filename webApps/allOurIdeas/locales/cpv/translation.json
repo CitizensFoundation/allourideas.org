@@ -873,21 +873,21 @@
     "edit": "Editar domínio",
     "info": "Settings",
     "apis": "APIs",
-    "settings": "Additional",
-    "onlyAdminsCanCreateCommunities": "Only admins can create communities"
+    "settings": "Adicional",
+    "onlyAdminsCanCreateCommunities": "Só administradores podi criá comunidades"
   },
-  "domains": "Domains",
-  "communities": "Communities",
-  "groups": "Groups",
-  "myDomains": "My Domains",
-  "myCommunities": "My Communities",
-  "myGroups": "My Groups",
-  "myAdminCommunities": "Communities Admin",
-  "myAdminGroups": "Groups Admin",
+  "domains": "Domínios",
+  "communities": "Comunidades",
+  "groups": "Grupos",
+  "myDomains": "Meus Domínios",
+  "myCommunities": "Minhas Comunidades",
+  "myGroups": "Meus Grupos",
+  "myAdminCommunities": "Administração de Comunidades",
+  "myAdminGroups": "Administração de Grupos",
   "community": {
-    "add": "Add community",
-    "alternativeHeader": "Alternative Header",
-    "edit": "Edit community",
+    "add": "Adiciona comunidade",
+    "alternativeHeader": "Cabeçalho Alternativo",
+    "edit": "Edita comunidade",
     "hostname": "Hostname",
     "admins": "Admins di komunidadi",
     "users": "Usuários di komunidadi",
@@ -1365,5 +1365,6 @@
   "firstAnswer": "First answer",
   "secondAnswer": "Second answer",
   "hereIsTheQuestion": "Here is the question",
-  "pleaseAnswerInThisLanguage": "Please answer in this language"
+  "pleaseAnswerInThisLanguage": "Please answer in this language",
+  "backgroundFinish": "Background Finish"
 }

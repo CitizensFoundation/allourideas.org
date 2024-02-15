@@ -365,9 +365,9 @@
   "customVoteDownHoverText": "Umbhalo wesilumkiso sokuvota phantsi",
   "customVoteUpHoverText": "Umbhalo wesilumkiso sokuvota phezulu",
   "hideNewPointOnNewIdea": "Fihla ingongoma entsha kwingcamango entsha",
-  "customSAMLErrorHTML": "Custom SAML Error HTML",
+  "customSAMLErrorHTML": "I-HTML yeMpazamo yeSAML yesiSiko",
   "redirectToGroupId": "Redirect (xa kungekho URL path) kwi-Group Id",
-  "customBackURL": "Custom back URL",
+  "customBackURL": "I-URL yokubuyela umva yesiSiko",
   "customBackName": "Igama lokubuyela ngasemva",
   "changeEmail": "Tshintsha i-imeyile",
   "exportLogins": "Thumela zonke iilogins",
@@ -631,7 +631,7 @@
   "disableDebate": "Khubaza ingxoxo",
   "welcomeHTML": "wamkelekile HTML (sebenzisa ngononophelo)",
   "disableFacebookLoginForGroup": "Khubaza ukungena nge-Facebook kwiqela",
-  "facebookPixelId": "Facebook pixel id",
+  "facebookPixelId": "I-id ye-pixel ye-Facebook",
   "downloadFacebookImagesForUser": "Khuphela imifanekiso ye-Facebook yabasebenzisi kwi-db yethu",
   "customUserRegistrationText": "Umbhalo wobhaliso lomsebenzisi ngokwezifiso",
   "participateAnonymously": "Thatha inxaxheba ngokungaziwa",
@@ -649,7 +649,7 @@
   "hidePostAuthor": "Fihla umbhali weposi",
   "defaultLocationLongLat": "Indawo engagqibekanga ubude,ububanzi",
   "disableCommunityDomainUpLink": "Khubaza uqhagamshelo lweDomain",
-  "analyticsTrackerCode": "Google Analytics Id",
+  "analyticsTrackerCode": "I-id ye-Google Analytics",
   "filterIdeas": "Hluza iingcamango",
   "edit": "Hlela",
   "delete": "Cima",
@@ -827,7 +827,7 @@
     "createOrganization": "Yenza umbutho",
     "edit": "Hlela igama lendawo",
     "info": "Useto",
-    "apis": "APIs",
+    "apis": "I-APIs",
     "settings": "Olongezelelweyo",
     "onlyAdminsCanCreateCommunities": "AbaLawuli kuphela abanokudala iindawo"
   },
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Impendulo yokuqala",
   "secondAnswer": "Impendulo yesibini",
   "hereIsTheQuestion": "Nantsi imibuzo",
-  "pleaseAnswerInThisLanguage": "Nceda uphendule ngolwimi"
+  "pleaseAnswerInThisLanguage": "Nceda uphendule ngolwimi",
+  "backgroundFinish": "Umgangatho Ongasemva"
 }

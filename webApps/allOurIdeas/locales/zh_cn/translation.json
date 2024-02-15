@@ -1334,7 +1334,7 @@
   "domainFraudManagement": "域名欺诈管理",
   "Access": "访问",
   "openOrganizationMenu": "打开组织菜单",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "雷克雅未克美术馆",
   "Override theme": "覆盖主题",
   "Analytics & Marketing": "分析与市场",
   "Promote your survey": "推广您的调查",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "第一个答案",
   "secondAnswer": "第二个答案",
   "hereIsTheQuestion": "这是问题",
-  "pleaseAnswerInThisLanguage": "请用这种语言回答"
+  "pleaseAnswerInThisLanguage": "请用这种语言回答",
+  "backgroundFinish": "背景完成"
 }

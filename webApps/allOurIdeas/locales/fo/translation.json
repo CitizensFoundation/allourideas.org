@@ -1350,5 +1350,6 @@
   "firstAnswer": "Fyrsta svar",
   "secondAnswer": "Annað svar",
   "hereIsTheQuestion": "Her er spurningin",
-  "pleaseAnswerInThisLanguage": "Vinarliga svara á hesum máli"
+  "pleaseAnswerInThisLanguage": "Vinarliga svara á hesum máli",
+  "backgroundFinish": "Bakgrund Enda"
 }

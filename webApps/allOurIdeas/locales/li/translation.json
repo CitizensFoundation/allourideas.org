@@ -420,7 +420,7 @@
   "communityContentModeration": "Gemeinsjap moderatie",
   "groupContentModeration": "Groep moderatie",
   "userContentModeration": "Mien Inhoud",
-  "items": "items",
+  "items": "Items",
   "blockContent": "Inhawd Blokkere",
   "blockSelectedContent": "Blokkere al geselecteerd:",
   "anonymizeSelectedContent": "Anonimiseer al geselecteerd:",
@@ -447,7 +447,7 @@
   "domainContentModeration": "Domein moderatie",
   "flags": "Vlagge",
   "date": "Datum",
-  "type": "Type",
+  "type": "Typeer",
   "contentModeration": "Inhawd Moderatie",
   "noDevicesFound": "Gein opnaamapparate gevónje",
   "shouldAutoTranslateInfo": "Dees pagina bevat mieër es ein taal, wils se automatisch vertaling insjakele?",
@@ -700,7 +700,7 @@
   "addTemplate": "Sjabloon toevoege",
   "save": "Bewaar",
   "saved": "Bewaard",
-  "config": "Config",
+  "config": "Configuratie",
   "newBulkStatusUpdate": "Nuuje Bulkstatusupdate",
   "editBulkStatusUpdate": "Bulkstatusupdate bewèrke",
   "bulkStatusUdateConfig": "Bulkstatusupdate Config",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ierste antwoord",
   "secondAnswer": "Twiede antwoord",
   "hereIsTheQuestion": "Hie is de vraog",
-  "pleaseAnswerInThisLanguage": "Antwoord in deze taal"
+  "pleaseAnswerInThisLanguage": "Antwoord in deze taal",
+  "backgroundFinish": "Achtergrónd Aafwerking"
 }

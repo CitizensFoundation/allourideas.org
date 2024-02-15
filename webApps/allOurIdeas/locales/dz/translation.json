@@ -130,10 +130,10 @@
   "generateAiImage": "རིས་བརྙན་སྐུར་བ།",
   "generateWithAI": "སྐུར་བ།",
   "lookAndFeel": "བརྗོད་སྟོན་དང་འདྲི་བ།",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML དཔའ་བཅོས།",
   "basic": "རིམ་པ།",
   "webApp": "ཝེབ་ཨེབ་རིག་སྤྱོད།",
-  "authApis": "Auth APIs",
+  "authApis": "དཔའ་བཅོས་APIཚད།",
   "dontHaveAccount": "གཉེར་ཐོ་མེད་པ་དང་འགོ་བཙུགས་གནང་རོགས།",
   "cantRememberPassword": "གསང་ཚིག་དྲན་པ་མི་འདྲི།",
   "loginAndRegistration": "ནང་འཁྱོལ་དང་ཐོ་བཀོད",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "དང་པོའི་ལན",
   "secondAnswer": "གཉིས་པའི་ལན",
   "hereIsTheQuestion": "འདི་འབྲི་བའི་དྲིས་ཡིག་ཡིན",
-  "pleaseAnswerInThisLanguage": "འདི་གི་སྐད་ཡིག་ན་ལན་བཤེར་རོགས"
+  "pleaseAnswerInThisLanguage": "འདི་གི་སྐད་ཡིག་ན་ལན་བཤེར་རོགས",
+  "backgroundFinish": "རྒྱབ་སྐྱེས་བཟོ་བཅོས།"
 }

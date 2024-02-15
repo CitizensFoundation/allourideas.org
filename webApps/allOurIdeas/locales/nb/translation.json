@@ -371,7 +371,7 @@
   "customSamlLoginText": "Egendefinert SAML innloggingstekst",
   "forceSecureSamlEmployeeLogin": "Tving sikker SAML-ansattinnlogging",
   "languageSettings": "Språkinnstillinger",
-  "headerMedia": "Header Media",
+  "headerMedia": "Topptekstmedier",
   "themeSettings": "Temainnstillinger",
   "postSettings": "Innleggsinnstillinger",
   "voteSettings": "Avstemningsinnstillinger",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Første svar",
   "secondAnswer": "Andre svar",
   "hereIsTheQuestion": "Her er spørsmålet",
-  "pleaseAnswerInThisLanguage": "Vennligst svar på dette språket"
+  "pleaseAnswerInThisLanguage": "Vennligst svar på dette språket",
+  "backgroundFinish": "Bakgrunnsfinish"
 }

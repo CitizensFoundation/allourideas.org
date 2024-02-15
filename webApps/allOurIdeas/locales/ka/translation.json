@@ -1350,5 +1350,6 @@
   "firstAnswer": "პირველი პასუხი",
   "secondAnswer": "მეორე პასუხი",
   "hereIsTheQuestion": "აქ არის კითხვა",
-  "pleaseAnswerInThisLanguage": "გთხოვთ, პასუხი გაეცით ამ ენაზე"
+  "pleaseAnswerInThisLanguage": "გთხოვთ, პასუხი გაეცით ამ ენაზე",
+  "backgroundFinish": "ფონის დასრულება"
 }

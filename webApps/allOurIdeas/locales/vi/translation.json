@@ -1334,7 +1334,7 @@
   "domainFraudManagement": "Quản lý gian lận miền",
   "Access": "Truy cập",
   "openOrganizationMenu": "Mở menu tổ chức",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "Bảo tàng Reykjavík",
   "Override theme": "Ghi đè chủ đề",
   "Analytics & Marketing": "Phân tích & Tiếp thị",
   "Promote your survey": "Quảng bá khảo sát",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Câu trả lời đầu",
   "secondAnswer": "Câu trả lời thứ hai",
   "hereIsTheQuestion": "Đây là câu hỏi",
-  "pleaseAnswerInThisLanguage": "Vui lòng trả lời bằng ngôn ngữ này"
+  "pleaseAnswerInThisLanguage": "Vui lòng trả lời bằng ngôn ngữ này",
+  "backgroundFinish": "Nền"
 }

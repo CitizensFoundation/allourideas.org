@@ -840,7 +840,7 @@
     "add": "İcma əlavə et",
     "alternativeHeader": "Alternativ Başlıq",
     "edit": "İcmanı redaktə et",
-    "hostname": "Hostname",
+    "hostname": "Hostadı",
     "admins": "İcma idarəçiləri",
     "users": "İcma istifadəçiləri",
     "delete": "İcmanı sil",
@@ -1331,7 +1331,7 @@
   "domainFraudManagement": "Domen Saxtakarlığının İdarə edilməsi",
   "Access": "Giriş",
   "openOrganizationMenu": "Təşkilat menyusunu aç",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "Reykjavíkur Listasafnı",
   "Override theme": "Mövzunu üstələ",
   "Analytics & Marketing": "Analitika və Marketinq",
   "Promote your survey": "Sorğunuzu təşviq edin",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Birinci cavab",
   "secondAnswer": "İkinci cavab",
   "hereIsTheQuestion": "Burada sual var",
-  "pleaseAnswerInThisLanguage": "Zəhmət olmasa bu dildə cavab verin"
+  "pleaseAnswerInThisLanguage": "Zəhmət olmasa bu dildə cavab verin",
+  "backgroundFinish": "Fon Bitmə"
 }

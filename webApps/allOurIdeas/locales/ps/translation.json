@@ -50,7 +50,7 @@
   "private": "خصوصي",
   "aiAnalysis": "مصنوعي استخبارات تحلیل",
   "setThemeColor": "د تیمې رنګ وټاکئ",
-  "whatsapp": "WhatsApp",
+  "whatsapp": "واټساپ",
   "No campaigns found": "هیڅ کمپاین ونه موندل شو",
   "Source": "سرچینه",
   "Top sources": "غوره سرچینې",
@@ -827,7 +827,7 @@
     "createOrganization": "د سازمان جوړول",
     "edit": "دومین سمول",
     "info": "ترتیبات",
-    "apis": "APIs",
+    "apis": "اې پي آیان",
     "settings": "اضافي",
     "onlyAdminsCanCreateCommunities": "یوازې اداره کونکي کولی شي ټولنې جوړې کړي"
   },
@@ -1317,7 +1317,7 @@
   "Page Visits": "پاڼې لیدنې",
   "Page": "پاڼه",
   "Top Sources": "غوره سرچینې",
-  "UTM": "UTM",
+  "UTM": "یو ټي ایم",
   "All": "ټول",
   "duplicate": "ډبلیکیټ",
   "New category": "نوې کټګوري",
@@ -1334,7 +1334,7 @@
   "domainFraudManagement": "د ډومین فراډ مدیریت",
   "Access": "لاسرسی",
   "openOrganizationMenu": "د سازمان منو خلاصول",
-  "Listasafn Reykjavíkur": "Listasafn Reykjavíkur",
+  "Listasafn Reykjavíkur": "لیستاسفن ریکجاویکور",
   "Override theme": "موضوع بدلول",
   "Analytics & Marketing": "تحلیل او بازارموندنه",
   "Promote your survey": "خپله سروې وړاندې کړئ",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "لومړی ځواب",
   "secondAnswer": "دوهم ځواب",
   "hereIsTheQuestion": "دلته پوښتنه ده",
-  "pleaseAnswerInThisLanguage": "مهرباني وکړئ په دې ژبه کې ځواب ووایاست"
+  "pleaseAnswerInThisLanguage": "مهرباني وکړئ په دې ژبه کې ځواب ووایاست",
+  "backgroundFinish": "پس منظر"
 }

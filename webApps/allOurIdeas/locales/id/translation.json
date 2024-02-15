@@ -1350,5 +1350,6 @@
   "firstAnswer": "Jawaban pertama",
   "secondAnswer": "Jawaban kedua",
   "hereIsTheQuestion": "Ini pertanyaannya",
-  "pleaseAnswerInThisLanguage": "Mohon jawab dalam bahasa ini"
+  "pleaseAnswerInThisLanguage": "Mohon jawab dalam bahasa ini",
+  "backgroundFinish": "Latar Belakang"
 }

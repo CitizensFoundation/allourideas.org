@@ -1294,7 +1294,7 @@
   "Last month": "Bishii hore",
   "Custom range": "Kala duwanaansho gaar ah",
   "Completed goal": "Hadaf la dhammeeyay",
-  "Browser": "Browser",
+  "Browser": "Biraawsar",
   "Country": "Waddan",
   "Region": "Gobol",
   "City": "Magaalo",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Jawaabta koowaad",
   "secondAnswer": "Jawaabta labaad",
   "hereIsTheQuestion": "Halkan su'aashu tahay",
-  "pleaseAnswerInThisLanguage": "Fadlan ku jawaab luqaddan"
+  "pleaseAnswerInThisLanguage": "Fadlan ku jawaab luqaddan",
+  "backgroundFinish": "Dhammaystirka Asalka"
 }

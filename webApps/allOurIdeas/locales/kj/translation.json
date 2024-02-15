@@ -34,7 +34,7 @@
   "startReportCreation": "Pangula Ombiko",
   "areYouSureYouWantToDeleteThisOrganization": "O na u na u ti kala u fula oshilongo shoka?",
   "createOrganization": "Pangula oshilongo",
-  "ltpConfig": "LTP Config",
+  "ltpConfig": "LTP Konfiga",
   "welcomeHTMLforNotLoggedInUsers": "Ongela HTML shaavo shaashi li vulu",
   "currentRealityTree": "Omuti wa Uulelelo Gwanitha",
   "goalTree": "Omuti wa Eumbo",
@@ -1184,7 +1184,7 @@
   "hats": "Omakuti",
   "dataForVisualizationJsonError": "Oshitenya sha JSON",
   "selectCategory": "Sankula Category",
-  "earlConfig": "Earl COnfig",
+  "earlConfig": "Earl Konfiga",
   "show_cant_decide": "Kombanda okukala",
   "accept_new_ideas": "Yamukela zongombe zisha",
   "hide_results": "fihla eumbo",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Eyamvula yoye",
   "secondAnswer": "Eyamvula yovili",
   "hereIsTheQuestion": "Ongaapi omushangelo",
-  "pleaseAnswerInThisLanguage": "Kombulula mOshiwambo"
+  "pleaseAnswerInThisLanguage": "Kombulula mOshiwambo",
+  "backgroundFinish": "Kumukundaneko"
 }

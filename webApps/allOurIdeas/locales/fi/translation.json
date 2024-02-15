@@ -1350,5 +1350,6 @@
   "firstAnswer": "Ensimmäinen vastaus",
   "secondAnswer": "Toinen vastaus",
   "hereIsTheQuestion": "Tässä on kysymys",
-  "pleaseAnswerInThisLanguage": "Vastaa tällä kielellä"
+  "pleaseAnswerInThisLanguage": "Vastaa tällä kielellä",
+  "backgroundFinish": "Taustaväri"
 }

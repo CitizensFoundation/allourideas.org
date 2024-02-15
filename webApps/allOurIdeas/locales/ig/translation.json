@@ -535,7 +535,7 @@
   "deleteSelectedUsers": "Rịọ ka e kpochapụ ndị ahọpụtara:",
   "anonymizeSelectedUsers": "Mee ka ndị ahọpụtara ghara ịmata:",
   "anonymizeUser": "Mee ka onye ọrụ ghara ịmata",
-  "email": "Email",
+  "email": "Ozi-e",
   "organization": "Nzukọ",
   "emailAlreadyRegisterred": "I nweghị ike ịtọ email gị na adreesị a ebe ọ bụ na ọ dịlarị n'iji.",
   "userHaveSetEmail": "Email setịpụrụ maka",
@@ -751,7 +751,7 @@
     "myPosts": "Echiche m",
     "muted": "Gbanyụọ",
     "browser": "Ihe nchọgharị",
-    "email": "Email",
+    "email": "Ozi-e",
     "asItHappens": "Ka ọ na-eme",
     "daily": "Kwa ụbọchị",
     "hourly": "Kwa elekere",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Azịza mbụ",
   "secondAnswer": "Azịza nke abụọ",
   "hereIsTheQuestion": "Lee ajụjụ",
-  "pleaseAnswerInThisLanguage": "Biko zaa na asụsụ a"
+  "pleaseAnswerInThisLanguage": "Biko zaa na asụsụ a",
+  "backgroundFinish": "Nzube Azụ"
 }

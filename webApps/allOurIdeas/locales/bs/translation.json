@@ -130,7 +130,7 @@
   "generateAiImage": "Generiši sliku",
   "generateWithAI": "Generiši",
   "lookAndFeel": "Izgled",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Autentifikacija",
   "basic": "Osnovno",
   "webApp": "Web aplikacija",
   "authApis": "Auth API-ji",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Prvi odgovor",
   "secondAnswer": "Drugi odgovor",
   "hereIsTheQuestion": "Evo pitanja",
-  "pleaseAnswerInThisLanguage": "Molimo odgovorite na ovom jeziku"
+  "pleaseAnswerInThisLanguage": "Molimo odgovorite na ovom jeziku",
+  "backgroundFinish": "Pozadina"
 }

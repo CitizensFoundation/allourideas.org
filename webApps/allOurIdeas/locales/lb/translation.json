@@ -1227,7 +1227,7 @@
   "Thinking": "Denken...",
   "Send": "Schécken",
   "typing": "Tippen",
-  "record": "Tecord",
+  "record": "Opzeechnen",
   "send": "Schécken",
   "Dynamic Colors": "Dynamesch Faarwen",
   "One Dynamic Color": "Eng Dynamesch Faarf",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Éischt Äntwert",
   "secondAnswer": "Zweet Äntwert",
   "hereIsTheQuestion": "Hei ass d'Fro",
-  "pleaseAnswerInThisLanguage": "Äntwert w.e.g. an dëser Sprooch"
+  "pleaseAnswerInThisLanguage": "Äntwert w.e.g. an dëser Sprooch",
+  "backgroundFinish": "Hannergrond Finish"
 }

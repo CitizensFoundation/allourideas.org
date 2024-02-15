@@ -130,10 +130,10 @@
   "generateAiImage": "Изображение генерировать",
   "generateWithAI": "Генерировать",
   "lookAndFeel": "Кыдзавын да вижнын",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "SAML Лӧмын",
   "basic": "Базовый",
   "webApp": "Веб-апп",
-  "authApis": "Auth APIs",
+  "authApis": "Лӧмын API-ӧн",
   "dontHaveAccount": "Аккаунтöв вiйiсь?",
   "cantRememberPassword": "Пароль мунынь кылiсь?",
   "loginAndRegistration": "Сiсьтiсь да Регистрация",
@@ -1154,7 +1154,7 @@
   "sortBySortOrder": "Сортировка сортировка ордерын кылӧ",
   "mediaUploads": "Медиа йӧдӧмыс",
   "onlyAdminsCanCreateCommunities": "Тикше администраторыс сообществас лыдныны",
-  "Facebook Client Id": "Facebook Client Id",
+  "Facebook Client Id": "Facebook Клиентъяс Id",
   "facebookClientId": "Facebook Клиент Id",
   "Facebook Client Secret": "Facebook Клиент Секрет",
   "facebookClientSecret": "Facebook Клиент Секрет",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Вӧралӧн ответ",
   "secondAnswer": "Вижӧлӧн ответ",
   "hereIsTheQuestion": "Мында сӧрник",
-  "pleaseAnswerInThisLanguage": "Коми кыв вӧлӧн ответны"
+  "pleaseAnswerInThisLanguage": "Коми кыв вӧлӧн ответны",
+  "backgroundFinish": "Фонъяс Выльтӧм"
 }

@@ -133,10 +133,10 @@
   "generateAiImage": "Generar Maletg",
   "generateWithAI": "Generar",
   "lookAndFeel": "Aspect ed Impressiun",
-  "samlAuth": "SAML Auth",
+  "samlAuth": "Autentificaziun SAML",
   "basic": "Basic",
   "webApp": "App Web",
-  "authApis": "Auth APIs",
+  "authApis": "APIs d'autentificaziun",
   "dontHaveAccount": "N'has betg in conto?",
   "cantRememberPassword": "Pos betg seregurdar dal pled-clav?",
   "loginAndRegistration": "Login e Registraziun",
@@ -1350,5 +1350,6 @@
   "firstAnswer": "Emprima resposta",
   "secondAnswer": "Secunda resposta",
   "hereIsTheQuestion": "Qua è la dumonda",
-  "pleaseAnswerInThisLanguage": "Responda per plaschair en questa lingua"
+  "pleaseAnswerInThisLanguage": "Responda per plaschair en questa lingua",
+  "backgroundFinish": "Fundal"
 }
