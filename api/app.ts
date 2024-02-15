@@ -42,9 +42,9 @@ export class AoiServerApi extends YourPrioritiesApi {
 
   override setupStaticFileServing(): void {
     super.setupStaticFileServing();
-    const baseDir = path.join(__dirname, "../../webApps/client");
+    const baseDir = path.join(__dirname, "../../webApps");
 
-    const oldEarlStaticPath = path.join(baseDir, 'dist/oldVersionInformation.html');
+    const oldEarlStaticPath = path.join(baseDir, 'client/dist/oldVersionInformation.html');
 
     // Middleware to check for old URLs
     this.app.use((req, res, next) => {
@@ -54,5 +54,14 @@ export class AoiServerApi extends YourPrioritiesApi {
       }
       next();
     });
+
+    let clientAppPath = path.join(baseDir, "client/dist");
+
+    this.app.use("/", express.static(clientAppPath));
+    this.app.use("/domain/*", express.static(clientAppPath));
+    this.app.use("/community/*", express.static(clientAppPath));
+    this.app.use("/group/*", express.static(clientAppPath));
+    this.app.use("/post/*", express.static(clientAppPath));
+    this.app.use("/favicon.ico", express.static(clientAppPath));
   }
 }
