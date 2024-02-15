@@ -36,7 +36,10 @@ export class AoiServerApi extends YourPrioritiesApi {
         const oldEarlStaticPath = path.join(baseDir, 'client/dist/oldVersionInformation.html');
         // Middleware to check for old URLs
         this.app.use((req, res, next) => {
-            const requestPath = req.path;
+            let requestPath = req.path;
+            if (requestPath.charAt(0) === '/') {
+                requestPath = requestPath.slice(1);
+            }
             if (this.oldEarlNames.has(requestPath)) {
                 return res.sendFile(oldEarlStaticPath);
             }
