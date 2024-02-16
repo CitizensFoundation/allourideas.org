@@ -16,4 +16,4 @@ RUN npm install
 
 COPY --chown=node:node . .
 
-CMD [ "node --optimize_for_size --max_old_space_size=960 ", "node_modules/@yrpri/api/active-citizen/workers/main.js" ]
+CMD [ "node --optimize_for_size --max_old_space_size=960 ", "api/node_modules/@yrpri/api/active-citizen/workers/main.js" ]
