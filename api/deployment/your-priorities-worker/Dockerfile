@@ -12,8 +12,7 @@ COPY --chown=node:node ./api .
 
 USER node
 
-RUN yarn config set ignore-engines
-RUN yarn install
+RUN npm install
 
 COPY --chown=node:node . .
 
