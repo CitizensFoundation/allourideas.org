@@ -9,17 +9,17 @@ RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
 
 WORKDIR /home/node/app
 
-COPY --chown=node:node ./server_api/package.json ./
+COPY --chown=node:node ./api/package.json ./
 
 USER node
 
 RUN npm install
 
-COPY --chown=node:node ./server_api .
+COPY --chown=node:node ./api .
 COPY --chown=node:node ./webApps .
 
 ENV PORT=9080
 
 EXPOSE 9080
 
-CMD [ "node", "server_api/ts-out/server.js" ]
+CMD [ "node", "api/ts-out/server.js" ]

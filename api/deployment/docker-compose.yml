@@ -3,8 +3,8 @@ version: '3.9'
 x-your-priorities-app-common: &your-priorities-app-common
   #  build: ./your-priorities-app/
   build:
-    context: ../.
-    dockerfile: deployment/your-priorities-app/Dockerfile
+    context: ../../.
+    dockerfile: api/deployment/your-priorities-app/Dockerfile
   env_file: .env
   restart: always
   image: your-priorities-app:current
@@ -24,8 +24,8 @@ x-your-priorities-app-common: &your-priorities-app-common
 x-your-priorities-worker-common: &your-priorities-worker-common
   #build: ./your-priorities-worker/
   build:
-    context: ../.
-    dockerfile: deployment/your-priorities-worker/Dockerfile
+    context: ../../.
+    dockerfile: api/deployment/your-priorities-worker/Dockerfile
   restart: always
   env_file: .env
   command: node ts-out/active-citizen/workers/main.js
