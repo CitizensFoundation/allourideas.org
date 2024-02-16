@@ -1,4 +1,4 @@
-FROM phusion/passenger-ruby32:2.5.0
+FROM phusion/passenger-ruby32:3.0.1
 LABEL MAINTAINER="Robert Vidar Bjarnason <robert@citizens.is>"
 
 RUN echo 'version 1.1'
