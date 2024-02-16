@@ -28,7 +28,7 @@ x-your-priorities-worker-common: &your-priorities-worker-common
     dockerfile: api/deployment/your-priorities-worker/Dockerfile
   restart: always
   env_file: .env
-  command: node api/node_modules/@yrpri/api/active-citizen/workers/main.js
+  command: node node_modules/@yrpri/api/active-citizen/workers/main.cjs
   network_mode: host
   logging:
     driver: "json-file"
