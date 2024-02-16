@@ -50,6 +50,9 @@ export class AoiServerApi extends YourPrioritiesApi {
         this.app.use("/domain/*", express.static(clientAppPath));
         this.app.use("/community/*", express.static(clientAppPath));
         this.app.use("/group/*", express.static(clientAppPath));
+        this.app.use("/admin/domain/*", express.static(clientAppPath));
+        this.app.use("/admin/community/*", express.static(clientAppPath));
+        this.app.use("/admin/group/*", express.static(clientAppPath));
         this.app.use("/post/*", express.static(clientAppPath));
         this.app.use("/favicon.ico", express.static(clientAppPath));
     }
