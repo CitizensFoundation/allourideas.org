@@ -85,7 +85,7 @@ services:
     image: mysql:8.0
     restart: always
     network_mode: host
-    env_file: .env
+    env_file: .pairwise-env
     ports:
       - '3306:3306'
     expose:
@@ -96,7 +96,7 @@ services:
   pairwise-api:
     container_name: pairwise-api
     restart: always
-    env_file: .env
+    env_file: .pairwise-env
     build:
       context: ./pairwise-api/
       dockerfile: Dockerfile
