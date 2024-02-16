@@ -6,6 +6,8 @@ x-your-priorities-app-common: &your-priorities-app-common
     context: ../../.
     dockerfile: api/deployment/your-priorities-app/Dockerfile
   env_file: .env
+  environment:
+   # - FORCE_DB_SYNC=true
   restart: always
   image: your-priorities-app:current
   command: node ts-out/server.js
