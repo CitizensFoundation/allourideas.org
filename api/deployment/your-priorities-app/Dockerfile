@@ -17,6 +17,7 @@ RUN npm install
 
 COPY --chown=node:node ./api .
 COPY --chown=node:node ./webApps .
+COPY --chown=node:node ./webApps /home/node/webApps
 
 ENV PORT=9080
 
