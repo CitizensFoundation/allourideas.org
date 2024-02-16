@@ -18,10 +18,4 @@ else
     sudo -E -u app bundle exec rake db:seed RAILS_ENV=production
     sudo -E -u app bundle exec rake db:migrate RAILS_ENV=production
 fi
-cd /home/app/pairwise-api
-sudo -E -u app bundle install --path vendor/bundle
-sudo -E -u app bundle exec rake db:create RAILS_ENV=production
-sudo -E -u app bundle exec rake db:schema:load RAILS_ENV=production
-sudo -E -u app bundle exec rake db:seed RAILS_ENV=production
-sudo -E -u app bundle exec rake db:migrate RAILS_ENV=production
 true
