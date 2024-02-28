@@ -119,6 +119,25 @@ services:
         max-file: "2000"
         max-size: "25m"
 
+  pairwise-api-worker:
+    container_name: pairwise-api-worker
+    restart: always
+    env_file: .pairwise-env
+    build:
+      context: ./pairwise-api/
+      dockerfile: Dockerfile
+    command: bash -c "bundle exec rake jobs:work"
+    volumes:
+      - pairwise-api:/home
+    network_mode: host
+    depends_on:
+      - pairwise-api
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "2000"
+        max-size: "25m"
+
   redis:
     image: redis:6.2.14-alpine
     container_name: redis

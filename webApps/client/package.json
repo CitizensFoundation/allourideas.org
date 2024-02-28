@@ -16,7 +16,7 @@
     "locales/**/*"
   ],
   "dependencies": {
-    "@yrpri/webapp": "^9.0.31"
+    "@yrpri/webapp": "^9.0.32"
   },
   "type": "module",
   "devDependencies": {
