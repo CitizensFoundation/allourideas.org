@@ -127,6 +127,7 @@ services:
       context: ./pairwise-api/
       dockerfile: Dockerfile
     command: bash -c "bundle exec rake jobs:work"
+    working_dir: /home/app/pairwise-api
     volumes:
       - pairwise-api:/home
     network_mode: host
