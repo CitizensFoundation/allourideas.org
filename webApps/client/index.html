@@ -37,6 +37,17 @@
         color: var(--md-sys-color-on-surface);
       }
     </style>
+    <script>
+      if (!window.BroadcastChannel) {
+        var script = document.createElement("script");
+        script.src = "node_modules/broadcastchannel-polyfill/index.js";
+        script.async = true;
+        script.onerror = function() {
+          console.error('Failed to load the broadcastchannel-polyfill script.');
+        };
+        document.head.appendChild(script);
+      }
+    </script>
   </head>
   <body>
     <aoi-app></aoi-app>

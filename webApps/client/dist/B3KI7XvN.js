@@ -1,4 +1,4 @@
-import{n as t,r as e,t as i,a as n,i as o,x as r,T as s}from"./CNP2n1-P.js";
+import{n as t,r as e,t as i,a as n,i as o,x as r,T as s}from"./B1TMb04N.js";
 /**
  * {@link https://github.com/muaz-khan/RecordRTC|RecordRTC} is a WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows. 
  * @summary Record audio, video or screen inside the browser.
