@@ -54,7 +54,7 @@ export default {
         { src: 'topo', dest: 'dist/' },
         { src: 'images/*', dest: 'dist/' },
         { src: 'oldVersionInformation.html', dest: 'dist/' },
-
+        { src: 'node_modules/broadcastchannel-polyfill/index.js', dest: 'dist/node_modules/broadcastchannel-polyfill/' },
       ],
     }),
     resolve(),
