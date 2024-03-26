@@ -1403,10 +1403,10 @@
   "Survey Administration": "Survey Administration",
   "Administer this survey": "Administer this survey",
   "flaggedIdea": "Your idea has been flagged as inappropriate. Please try again.",
-  "ideaAdded": "Your idea has been added, you can continue voting.",
+  "ideaAdded": "Your answer has been added, you can continue voting.",
   "ideaModerationQueue": "New answers will be reviewed for originality and compliance with terms of service prior to posting.",
-  "yourIdea": "Your idea",
+  "yourIdea": "Your answer",
   "chatInput": "Ask me a question",
-  "yourIdeaHasBeenAdded": "Your idea has been added, generating icon image.",
+  "yourIdeaHasBeenAdded": "Your answer has been added, generating icon image.",
   "aiIconInfo": "An Icon for your answer is being generated, you can close the window or wait for the icon to be generated. You will also have the option to regenerate the icon."
 }
