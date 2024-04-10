@@ -16,7 +16,14 @@ export class AoiServerApi extends YourPrioritiesApi {
     this.oldEarlNames = new Set();
     this.urlMappings = [
       { from: "unlocking-literacy-en", toGroupId: 2 },
-    //  { from: "unlocking-literacy-es", toGroupId: 3 }
+      { from: "unlocking-literacy-es", toGroupId: 3 },
+      { from: "unlocking-literacy-ht", toGroupId: 4 },
+      { from: "unlocking-literacy-zh", toGroupId: 5 },
+      { from: "unlocking-literacy-kea", toGroupId: 6 },
+      { from: "AI-risk", toGroupId: 7 },
+      { from: "safeAI", toGroupId: 8 },
+      { from: "safe-AI", toGroupId: 9 },
+      { from: "our-turn-student-agenda", toGroupId: 10 }
     ];
     this.loadOldEarlNames();
   }
