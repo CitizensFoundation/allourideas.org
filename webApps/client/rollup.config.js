@@ -58,16 +58,7 @@ export default {
       ],
     }),
     resolve(),
-    terser({
-      ecma: 2021,
-      module: true,
-      warnings: true,
-      mangle: {
-        properties: {
-          regex: /^__/,
-        },
-      },
-    }),
+    terser(),
     //summary(),
   ],
 };
