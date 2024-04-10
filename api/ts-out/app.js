@@ -54,6 +54,7 @@ export class AoiServerApi extends YourPrioritiesApi {
             if (this.oldEarlNames.has(requestPath)) {
                 return res.sendFile(oldEarlStaticPath);
             }
+            requestPath = requestPath.replace(/\/$/, '');
             // Check for URL mappings and redirect if match found
             const mapping = this.urlMappings.find(m => m.from === requestPath);
             if (mapping) {
