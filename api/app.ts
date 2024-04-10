@@ -72,8 +72,9 @@ export class AoiServerApi extends YourPrioritiesApi {
       // Check for URL mappings and redirect if match found
       const mapping = this.urlMappings.find(m => m.from === requestPath);
       if (mapping) {
-        // Construct the new URL with original query parameters
-        const newUrl = `/group/${mapping.toGroupId}${req.originalUrl.slice(requestPath.length)}`;
+        // Extract query string if present
+        const queryString = req.originalUrl.includes('?') ? req.originalUrl.substring(req.originalUrl.indexOf('?')) : '';
+        const newUrl = `/group/${mapping.toGroupId}${queryString}`;
         return res.redirect(newUrl);
       }
 
