@@ -8,6 +8,10 @@ export class AoiServerApi extends YourPrioritiesApi {
     constructor(port) {
         super(port);
         this.oldEarlNames = new Set();
+        this.urlMappings = [
+            { from: "unlocking-literacy-en", toGroupId: 2 },
+            //  { from: "unlocking-literacy-es", toGroupId: 3 }
+        ];
         this.loadOldEarlNames();
     }
     addDirnameToRequest() {
@@ -34,7 +38,7 @@ export class AoiServerApi extends YourPrioritiesApi {
         super.setupStaticFileServing();
         const baseDir = path.join(__dirname, "../../webApps");
         const oldEarlStaticPath = path.join(baseDir, 'client/dist/oldVersionInformation.html');
-        // Middleware to check for old URLs
+        // Middleware to check for old URLs and redirect based on mappings
         this.app.use((req, res, next) => {
             let requestPath = req.path;
             if (requestPath.charAt(0) === '/') {
@@ -42,6 +46,11 @@ export class AoiServerApi extends YourPrioritiesApi {
             }
             if (this.oldEarlNames.has(requestPath)) {
                 return res.sendFile(oldEarlStaticPath);
+            }
+            // Check for URL mappings and redirect if match found
+            const mapping = this.urlMappings.find(m => m.from === requestPath);
+            if (mapping) {
+                return res.redirect(`/group/${mapping.toGroupId}`);
             }
             next();
         });
