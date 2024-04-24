@@ -1,4 +1,4 @@
-import{n as e,r as t,t as i,a as r,i as n,x as o,T as a}from"./BLD2-7Bi.js";
+import{n as e,r as t,t as i,a as r,i as n,x as o,T as a}from"./DwhgVg5b.js";
 /**
  * {@link https://github.com/muaz-khan/RecordRTC|RecordRTC} is a WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows. 
  * @summary Record audio, video or screen inside the browser.
@@ -501,7 +501,7 @@ function(e,t){if(!this)throw'Use "new RecordRTCPromisesHandler()"';if(void 0===e
                 class="uploadFileButton"
                 @click="${this._openRecorderDialog}"
               >
-                <md-icon>fiber_manual_record</md-icon>
+                <md-icon slot="icon">fiber_manual_record</md-icon>
                 <div class="buttonText">${this.t("record")}</div>
               </md-filled-button>
             </div>
@@ -512,7 +512,7 @@ function(e,t){if(!this)throw'Use "new RecordRTCPromisesHandler()"';if(void 0===e
                 class="uploadFileButton"
                 @click="${this._uploadFile}"
               >
-                <md-icon>file_upload</md-icon>
+                <md-icon slot="icon">file_upload</md-icon>
                 <div class="buttonText">${this.t("upload")}</div>
               </md-filled-button>
             </div>
