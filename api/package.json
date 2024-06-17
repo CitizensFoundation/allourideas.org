@@ -16,7 +16,7 @@
   ],
   "type": "module",
   "dependencies": {
-    "@yrpri/api": "^9.0.22"
+    "@yrpri/api": "^9.0.23"
   },
   "devDependencies": {
     "@maxmind/geoip2-node": "^5.0.0",
