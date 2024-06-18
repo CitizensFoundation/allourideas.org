@@ -9,7 +9,7 @@ console.log(
     reallyDoIt
 );
 
-models.Group.findAll({ where: { access: 0 }, attributes:["id","configuration","name"] }).then((groups) => {
+models.Group.findAll({ where: { access: 3 }, attributes:["id","configuration","name"] }).then((groups) => {
   if (groups) {
     console.log("Found groups: " + groups.length);
     async.eachSeries(

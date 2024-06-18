@@ -6,7 +6,7 @@ var reallyDoIt = process.argv[2];
 console.log("Setting anon access on public groups: " +
     " reallyDoIt: " +
     reallyDoIt);
-models.Group.findAll({ where: { access: 0 }, attributes: ["id", "configuration", "name"] }).then((groups) => {
+models.Group.findAll({ where: { access: 3 }, attributes: ["id", "configuration", "name"] }).then((groups) => {
     if (groups) {
         console.log("Found groups: " + groups.length);
         async.eachSeries(groups, (group, callback) => {
