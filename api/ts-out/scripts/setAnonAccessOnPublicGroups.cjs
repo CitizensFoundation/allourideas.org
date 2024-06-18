@@ -2,10 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var models = require("@yrpri/api/models/index.cjs");
 var async = require("async");
-var groupId = process.argv[2];
-var reallyDoIt = process.argv[3];
-console.log("Setting anon access on public group: " +
-    groupId +
+var reallyDoIt = process.argv[2];
+console.log("Setting anon access on public groups: " +
     " reallyDoIt: " +
     reallyDoIt);
 models.Group.findAll({ where: { access: 0 }, attributes: ["id", "configuration", "name"] }).then((groups) => {
