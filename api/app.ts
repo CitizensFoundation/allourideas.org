@@ -63,6 +63,8 @@ export class AoiServerApi extends YourPrioritiesApi {
         res.setHeader('Cache-Control', 'public, max-age=2592000, s-maxage=86400, stale-while-revalidate=86400'); // 1 month cache, 1 day revalidate
       } else if (req.path.endsWith('.json')) {
         res.setHeader('Cache-Control', 'public, max-age=43200, s-maxage=60, stale-while-revalidate=60'); // 12 hour cache, 5 minutes revalidate
+      } else {
+        res.setHeader('Cache-Control', 'no-cache, must-revalidate');
       }
       next();
     });

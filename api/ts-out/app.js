@@ -54,6 +54,9 @@ export class AoiServerApi extends YourPrioritiesApi {
             else if (req.path.endsWith('.json')) {
                 res.setHeader('Cache-Control', 'public, max-age=43200, s-maxage=60, stale-while-revalidate=60'); // 12 hour cache, 5 minutes revalidate
             }
+            else {
+                res.setHeader('Cache-Control', 'no-cache, must-revalidate');
+            }
             next();
         });
         // Middleware to check for old URLs and redirect based on mappings
