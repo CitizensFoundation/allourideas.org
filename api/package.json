@@ -67,7 +67,7 @@
     "watch-start": "tsc --project ./ --outDir ./ts-out -w & nodemon -q ./ts-out/server.js",
     "dev": "nodemon --config nodemon.json ./ts-out/server_api/server.js",
     "dev:debug": "nodemon --config nodemon.json --inspect-brk api_app.ts",
-    "build": "tsc --project ./ --outDir ./ts-out && ncp ./node_modules/@yrpri/api/views ts-out/views && ncp config ts-out/config && ncp ./node_modules/@yrpri/api/active-citizen/email_templates ts-out/active-citizen/email_templates && ncp ./node_modules/@yrpri/api/active-citizen/locales ts-out/active-citizen/locales"
+    "build": "tsc --project ./ --outDir ./ts-out && ncp ./node_modules/@yrpri/api/views ts-out/views && ncp config ts-out/config && mkdir -p ts-out/services && ncp ./node_modules/@yrpri/api/services/email_templates ts-out/services/email_templates && ncp ./node_modules/@yrpri/api/services/locales ts-out/services/locales"
   },
   "cacheDirectories": [
     "node_modules"
