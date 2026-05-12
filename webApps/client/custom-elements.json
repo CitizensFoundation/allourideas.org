@@ -13,6 +13,10 @@
           "members": [
             {
               "kind": "method",
+              "name": "setupAppGlobals"
+            },
+            {
+              "kind": "method",
               "name": "renderAdminApp"
             }
           ],
@@ -45,6 +49,145 @@
     },
     {
       "kind": "javascript-module",
+      "path": "src/aoi-overrides.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "AoiAppGlobals",
+          "members": [
+            {
+              "kind": "field",
+              "name": "translationLoadPathPrefix",
+              "type": {
+                "text": "string"
+              },
+              "privacy": "private",
+              "default": "\"\""
+            },
+            {
+              "kind": "method",
+              "name": "setupTranslationSystem",
+              "parameters": [
+                {
+                  "name": "loadPathPrefix",
+                  "default": "\"\""
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "changeLocaleIfNeededAfterWait",
+              "parameters": [
+                {
+                  "name": "locale",
+                  "type": {
+                    "text": "string"
+                  }
+                },
+                {
+                  "name": "force",
+                  "type": {
+                    "text": "boolean"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "setupMergedTranslationSystem",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "loadPathPrefix",
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "loadMergedLocale",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "locale",
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "getMergedTranslation",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "locale",
+                  "type": {
+                    "text": "string"
+                  }
+                },
+                {
+                  "name": "loadPathPrefix",
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "fetchTranslation",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "Promise<TranslationMap>"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "url",
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ]
+            }
+          ],
+          "superclass": {
+            "name": "YpAppGlobals",
+            "package": "@yrpri/webapp/yp-app/YpAppGlobals.js"
+          }
+        },
+        {
+          "kind": "function",
+          "name": "installAoiWebAppOverrides"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "AoiAppGlobals",
+          "declaration": {
+            "name": "AoiAppGlobals",
+            "module": "src/aoi-overrides.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "installAoiWebAppOverrides",
+          "declaration": {
+            "name": "installAoiWebAppOverrides",
+            "module": "src/aoi-overrides.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
       "path": "src/admin/aoi-admin-app.ts",
       "declarations": [
         {
@@ -52,6 +195,30 @@
           "description": "",
           "name": "AnteosAdminApp",
           "members": [
+            {
+              "kind": "field",
+              "name": "isCreatingCommunityForGroup",
+              "privacy": "private",
+              "readonly": true
+            },
+            {
+              "kind": "method",
+              "name": "setDomainAsParentCollection",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "waitForDomain",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "updatePageFromPath"
+            },
+            {
+              "kind": "method",
+              "name": "_setAdminFromParent"
+            },
             {
               "kind": "method",
               "name": "renderGroupConfigPage"

@@ -7,8 +7,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { nothing, html } from "lit";
 import { customElement } from "lit/decorators.js";
 import { YpApp } from "@yrpri/webapp/yp-app/yp-app.js";
+import { AoiAppGlobals, installAoiWebAppOverrides, } from "./aoi-overrides.js";
 import './admin/aoi-admin-app.js';
+installAoiWebAppOverrides();
 let AoiApp = class AoiApp extends YpApp {
+    setupAppGlobals() {
+        window.appGlobals = new AoiAppGlobals(window.serverApi);
+    }
     renderAdminApp() {
         if (this.appMode == "main") {
             return nothing;

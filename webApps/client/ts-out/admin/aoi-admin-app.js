@@ -9,6 +9,33 @@ import { YpAdminApp } from "@yrpri/webapp/admin/yp-admin-app.js";
 import { html } from "lit";
 import './aoi-admin-config-group.js';
 let AnteosAdminApp = class AnteosAdminApp extends YpAdminApp {
+    get isCreatingCommunityForGroup() {
+        return !!window.appGlobals?.originalQueryParameters?.["createCommunityForGroup"];
+    }
+    setDomainAsParentCollection() {
+        if (this.isCreatingCommunityForGroup && window.appGlobals?.domain?.id) {
+            this.parentCollectionId = window.appGlobals.domain.id;
+        }
+    }
+    async waitForDomain() {
+        for (let attemptsLeft = 0; attemptsLeft < 50; attemptsLeft++) {
+            this.setDomainAsParentCollection();
+            if (this.parentCollectionId) {
+                return;
+            }
+            await new Promise((resolve) => setTimeout(resolve, 100));
+        }
+    }
+    updatePageFromPath() {
+        super.updatePageFromPath();
+        this.setDomainAsParentCollection();
+    }
+    async _setAdminFromParent() {
+        if (this.isCreatingCommunityForGroup) {
+            await this.waitForDomain();
+        }
+        return super._setAdminFromParent();
+    }
     renderGroupConfigPage() {
         return html `<aoi-admin-config-group
       .collectionType="${this.collectionType}"

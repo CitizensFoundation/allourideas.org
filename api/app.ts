@@ -115,6 +115,15 @@ export class AoiServerApi extends YourPrioritiesApi {
       next();
     });
 
+    const webappPackageLocalesPath = path.join(
+      baseDir,
+      "client/node_modules/@yrpri/webapp/locales"
+    );
+    this.app.use(
+      "/yrpri-webapp-locales",
+      express.static(webappPackageLocalesPath)
+    );
+
     let clientAppPath = path.join(baseDir, "client/dist");
 
     this.app.use("/", express.static(clientAppPath));
