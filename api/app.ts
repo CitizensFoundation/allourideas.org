@@ -96,17 +96,17 @@ export class AoiServerApi extends YourPrioritiesApi {
     let clientAppPath = path.join(baseDir, "client/dist");
 
     this.app.use("/", express.static(clientAppPath));
-    this.app.use("/domain/*", express.static(clientAppPath));
-    this.app.use("/community/*", express.static(clientAppPath));
-    this.app.use("/group/*", express.static(clientAppPath));
-    this.app.use("/admin/domain/*", express.static(clientAppPath));
-    this.app.use("/admin/community/*", express.static(clientAppPath));
-    this.app.use("/admin/group/*", express.static(clientAppPath));
-    this.app.use("/analytics/domain/*", express.static(clientAppPath));
-    this.app.use("/analytics/community/*", express.static(clientAppPath));
-    this.app.use("/analytics/group/*", express.static(clientAppPath));
-    this.app.use("/post/*", express.static(clientAppPath));
-    this.app.use("/user/*", express.static(clientAppPath));
+    this.app.use("/domain/*splat", express.static(clientAppPath));
+    this.app.use("/community/*splat", express.static(clientAppPath));
+    this.app.use("/group/*splat", express.static(clientAppPath));
+    this.app.use("/admin/domain/*splat", express.static(clientAppPath));
+    this.app.use("/admin/community/*splat", express.static(clientAppPath));
+    this.app.use("/admin/group/*splat", express.static(clientAppPath));
+    this.app.use("/analytics/domain/*splat", express.static(clientAppPath));
+    this.app.use("/analytics/community/*splat", express.static(clientAppPath));
+    this.app.use("/analytics/group/*splat", express.static(clientAppPath));
+    this.app.use("/post/*splat", express.static(clientAppPath));
+    this.app.use("/user/*splat", express.static(clientAppPath));
     this.app.use("/favicon.ico", express.static(clientAppPath));
   }
 }
