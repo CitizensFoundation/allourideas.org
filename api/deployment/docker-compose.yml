@@ -20,8 +20,8 @@ x-your-priorities-app-common: &your-priorities-app-common
   logging:
     driver: "json-file"
     options:
-      max-file: "2000"
-      max-size: "25m"
+      max-file: "5"
+      max-size: "500m"
 
 x-your-priorities-worker-common: &your-priorities-worker-common
   #build: ./your-priorities-worker/
@@ -35,8 +35,8 @@ x-your-priorities-worker-common: &your-priorities-worker-common
   logging:
     driver: "json-file"
     options:
-      max-file: "1000"
-      max-size: "25m"
+      max-file: "5"
+      max-size: "500m"
 
 services:
   webserver:
@@ -60,8 +60,8 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-file: "2000"
-        max-size: "25m"
+        max-file: "5"
+        max-size: "500m"
 
   your-priorities-app1:
     <<: *your-priorities-app-common
@@ -72,28 +72,6 @@ services:
 
   your-priorities-worker:
     <<: *your-priorities-worker-common
-
-  db:
-    image: postgres:16.2
-    container_name: postgres
-    restart: always
-    volumes:
-      - db-data:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_PASSWORD=postgres
-    network_mode: host
-
-  mysql_db:
-    image: mysql:8.0
-    restart: always
-    network_mode: host
-    env_file: .pairwise-env
-    ports:
-      - '3306:3306'
-    expose:
-      - '3306'
-    volumes:
-      - mysql-db-data:/var/lib/mysql
 
   pairwise-api:
     container_name: pairwise-api
@@ -116,8 +94,19 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-file: "2000"
-        max-size: "25m"
+        max-file: "5"
+        max-size: "500m"
+
+  redis:
+    image: redis:6.2.14-alpine
+    container_name: redis
+    restart: always
+    network_mode: host
+    ports:
+      - '6379'
+    command: redis-server --save 20 1 --loglevel warning
+    volumes:
+      - redis:/data
 
   pairwise-api-worker:
     container_name: pairwise-api-worker
@@ -136,26 +125,11 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-file: "2000"
-        max-size: "25m"
-
-  redis:
-    image: redis:6.2.14-alpine
-    container_name: redis
-    restart: always
-    network_mode: host
-    ports:
-      - '6379'
-    command: redis-server --save 20 1 --loglevel warning
-    volumes:
-      - redis:/data
+        max-file: "5"
+        max-size: "500m"
 
 volumes:
-  db-data:
+  pairwise-api:
     driver: local
   redis:
-    driver: local
-  mysql-db-data:
-    driver: local
-  pairwise-api:
     driver: local
