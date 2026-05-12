@@ -39,6 +39,28 @@ export class AoiServerApi extends YourPrioritiesApi {
     );
   }
 
+  override async initializeEsControllers(): Promise<void> {
+    const { AllOurIdeasController } = await import("@yrpri/api/controllers/allOurIdeas.js");
+    const aoiController = new AllOurIdeasController(this.wsClients);
+    this.app.use(aoiController.path, aoiController.router);
+
+    if (process.env.ENABLE_POLICY_SYNTH_AGENTS === "true") {
+      const { PolicySynthAgentsController } = await import("@yrpri/api/agents/controllers/policySynthAgents.js");
+      const policySynthAgentsController = new PolicySynthAgentsController(this.wsClients);
+      this.app.use(policySynthAgentsController.path, policySynthAgentsController.router);
+
+      const { AssistantController } = await import("@yrpri/api/agents/controllers/assistantsController.js");
+      const assistantController = new AssistantController(this.wsClients);
+      this.app.use(assistantController.path, assistantController.router);
+
+      const { AgentTaskController } = await import("@yrpri/api/agents/controllers/agentTaskController.js");
+      const agentTaskController = new AgentTaskController(this.wsClients);
+      this.app.use(agentTaskController.path, agentTaskController.router);
+    }
+
+    this.setupErrorHandler();
+  }
+
   async loadOldEarlNames() {
     const filePath = path.join(__dirname, '../oldEarlNames.txt');
     try {
