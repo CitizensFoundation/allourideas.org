@@ -79,6 +79,25 @@ async function indexExists(client: PgClient, indexName: string) {
 
 const migrations: LocalMigration[] = [
   {
+    name: "domains.only_admins_can_create_communities",
+    isNeeded: async (client) => {
+      if (!(await tableExists(client, "domains"))) {
+        throw new Error('Cannot migrate: table "domains" does not exist');
+      }
+
+      return !(await columnExists(
+        client,
+        "domains",
+        "only_admins_can_create_communities",
+      ));
+    },
+    run: async (client) => {
+      await client.query(
+        'ALTER TABLE "domains" ADD COLUMN IF NOT EXISTS only_admins_can_create_communities BOOLEAN DEFAULT FALSE',
+      );
+    },
+  },
+  {
     name: "groups.private_access_configuration",
     isNeeded: async (client) => {
       if (!(await tableExists(client, "groups"))) {
