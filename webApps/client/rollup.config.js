@@ -54,6 +54,7 @@ export default {
     copy({
       targets: [
         { src: 'locales', dest: 'dist/' },
+        { src: 'node_modules/@yrpri/webapp/locales/*', dest: 'dist/yrpri-webapp-locales/' },
         { src: 'topo', dest: 'dist/' },
         { src: 'images/*', dest: 'dist/' },
         { src: 'oldVersionInformation.html', dest: 'dist/' },
