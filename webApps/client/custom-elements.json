@@ -152,7 +152,7 @@
               "type": {
                 "text": "string"
               },
-              "default": "\"gpt-4-0125-preview\""
+              "default": "\"gpt-4o\""
             },
             {
               "kind": "field",
@@ -160,7 +160,7 @@
               "type": {
                 "text": "number"
               },
-              "default": "4000"
+              "default": "8000"
             },
             {
               "kind": "field",
@@ -385,6 +385,30 @@
                   "name": "inObject",
                   "type": {
                     "text": "string[]"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "isValidTranslationData",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "translationData is string[]"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "translationData",
+                  "type": {
+                    "text": "unknown"
+                  }
+                },
+                {
+                  "name": "expectedLength",
+                  "type": {
+                    "text": "number"
                   }
                 }
               ]

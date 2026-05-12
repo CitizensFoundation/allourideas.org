@@ -1,5 +1,5 @@
 import { jsonrepair } from "jsonrepair";
-import { OpenAI } from "openai";
+import OpenAI from "openai";
 import * as fs from "fs";
 import * as path from "path";
 import { promisify } from "util";
@@ -11,8 +11,8 @@ const writeFilePromise = promisify(fs.writeFile);
 // and remove the last line of the .js file (the module.exports line)
 export class YpLocaleTranslation {
     constructor() {
-        this.modelName = "gpt-4-0125-preview";
-        this.maxTokens = 4000;
+        this.modelName = "gpt-4o";
+        this.maxTokens = 8000;
         this.temperature = 0.0;
         this.excludeKeysFromTranslation = [
             "facebook",
@@ -45,6 +45,8 @@ export class YpLocaleTranslation {
             if (localeDir === "en_gb")
                 continue;
             if (localeDir === "en_ca")
+                continue;
+            if (localeDir === "ae")
                 continue;
             console.log(`Processing locale: ${localeDir}`);
             const translationFilePath = path.join(localesDir, localeDir, "translation.json");
@@ -160,17 +162,19 @@ You will get JSON with an array of strings to translate:
 ]
 
 OUTPUT:
-You will output JSON string array in the same order as the input array.
-[
-  "string",
-  ...
-]
+You will output a JSON object with a translations string array in the same order as the input array.
+{
+  "translations": [
+    "string",
+    ...
+  ]
+}
 
 
 INSTRUCTIONS:
 You must keep the translated text short, if there is one word in English, it should be one word in the other language. This is UI text for a mobile web app.
 Do not translate brand names including ours: All Our Ideas and Your Priorities.
-Always output only a JSON string array.`;
+Always output only the JSON object.`;
     }
     renderUserMessage(language, textsToTranslate) {
         return `Language to translate to: ${language}
@@ -178,7 +182,7 @@ Always output only a JSON string array.`;
 UI texts to translate in JSON Input:
 ${JSON.stringify(textsToTranslate, null, 2)}
 
-Your ${language} UI texts JSON output:`;
+Your ${language} UI texts JSON object output:`;
     }
     async translateUITexts(languageIsoCode, textsToTranslate) {
         try {
@@ -194,30 +198,44 @@ Your ${language} UI texts JSON output:`;
         }
     }
     async callLlm(languageName, inObject) {
-        const messages = [
-            {
-                role: "system",
-                content: this.renderSystemPrompt(),
-            },
-            {
-                role: "user",
-                content: this.renderUserMessage(languageName, inObject),
-            },
-        ];
         const maxRetries = 3;
         let retries = 0;
         let running = true;
         while (running) {
             try {
-                console.log(`Messages ${retries}:`, messages);
-                const results = await this.openaiClient.chat.completions.create({
+                console.log(`Translation prompt ${retries}:`, languageName, inObject);
+                const results = await this.openaiClient.responses.create({
                     model: this.modelName,
-                    messages,
-                    max_tokens: this.maxTokens,
+                    instructions: this.renderSystemPrompt(),
+                    input: this.renderUserMessage(languageName, inObject),
+                    max_output_tokens: this.maxTokens,
+                    store: false,
                     temperature: this.temperature,
+                    text: {
+                        format: {
+                            type: "json_schema",
+                            name: "ui_translations",
+                            strict: true,
+                            schema: {
+                                type: "object",
+                                additionalProperties: false,
+                                required: ["translations"],
+                                properties: {
+                                    translations: {
+                                        type: "array",
+                                        minItems: inObject.length,
+                                        maxItems: inObject.length,
+                                        items: {
+                                            type: "string",
+                                        },
+                                    },
+                                },
+                            },
+                        },
+                    },
                 });
                 console.log("Results:", results);
-                const textJson = results.choices[0].message.content;
+                const textJson = results.output_text;
                 console.log("Text JSON:", textJson);
                 if (textJson) {
                     let cleanText = textJson;
@@ -225,18 +243,22 @@ Your ${language} UI texts JSON output:`;
                     if (cleanText.startsWith("```json") && cleanText.endsWith("```")) {
                         cleanText = cleanText.substring(7, cleanText.length - 3).trim(); // Remove the surrounding markers
                     }
-                    let translationData = [];
+                    let translationData;
                     try {
-                        translationData = JSON.parse(jsonrepair(cleanText));
+                        const parsedTranslationData = JSON.parse(jsonrepair(cleanText));
+                        translationData = Array.isArray(parsedTranslationData)
+                            ? parsedTranslationData
+                            : parsedTranslationData.translations;
                         console.log("Parsed Translation Data:", translationData);
                     }
                     catch (error) {
                         console.error("Error parsing cleaned text as JSON:", error);
                     }
-                    if (translationData) {
+                    if (this.isValidTranslationData(translationData, inObject.length)) {
                         running = false;
                         return translationData;
                     }
+                    throw new Error(`Invalid translation output: expected ${inObject.length} strings`);
                 }
                 else {
                     throw new Error("No content in response");
@@ -253,6 +275,11 @@ Your ${language} UI texts JSON output:`;
             }
         }
         return undefined;
+    }
+    isValidTranslationData(translationData, expectedLength) {
+        return (Array.isArray(translationData) &&
+            translationData.length === expectedLength &&
+            translationData.every((item) => typeof item === "string"));
     }
 }
 (async () => {

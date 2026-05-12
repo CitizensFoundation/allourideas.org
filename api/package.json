@@ -16,7 +16,7 @@
   ],
   "type": "module",
   "dependencies": {
-    "@yrpri/api": "9.0.26",
+    "@yrpri/api": "9.0.232",
     "passport-openidconnect": "git+https://github.com/rbjarnason/passport-openidconnect.git"
   },
   "devDependencies": {

@@ -1,11 +1,14 @@
 //import summary from 'rollup-plugin-summary';
+import { createRequire } from 'node:module';
 import terser  from "@rollup/plugin-terser";
 import resolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
 import commonjs from '@rollup/plugin-commonjs';
-import pkg from './package.json' assert { type: 'json' };
 import copy from 'rollup-plugin-copy';
 import { rollupPluginHTML as html } from '@web/rollup-plugin-html';
+
+const require = createRequire(import.meta.url);
+const pkg = require('./package.json');
 
 function getCustomVersion(version) {
   const date = new Date();

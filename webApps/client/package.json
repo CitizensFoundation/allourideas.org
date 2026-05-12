@@ -16,7 +16,8 @@
     "locales/**/*"
   ],
   "dependencies": {
-    "@yrpri/webapp": "9.0.54"
+    "@yrpri/webapp": "9.0.136",
+    "openai": "^6.37.0"
   },
   "type": "module",
   "devDependencies": {

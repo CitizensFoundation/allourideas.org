@@ -1,4 +1,4 @@
-import { OpenAI } from "openai";
+import OpenAI from "openai";
 export declare class YpLocaleTranslation {
     openaiClient: OpenAI;
     modelName: string;
@@ -17,5 +17,6 @@ export declare class YpLocaleTranslation {
     renderUserMessage(language: string, textsToTranslate: Array<string>): string;
     translateUITexts(languageIsoCode: string, textsToTranslate: string[]): Promise<string[] | undefined>;
     callLlm(languageName: string, inObject: string[]): Promise<string[] | undefined>;
+    private isValidTranslationData;
 }
 //# sourceMappingURL=updateAllLocalesFromEn.d.ts.map
