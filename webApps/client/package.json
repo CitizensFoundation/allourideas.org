@@ -16,7 +16,7 @@
     "locales/**/*"
   ],
   "dependencies": {
-    "@yrpri/webapp": "9.0.136",
+    "@yrpri/webapp": "9.0.137",
     "openai": "^6.37.0"
   },
   "type": "module",
@@ -53,7 +53,7 @@
     "rimraf": "^5.0.5",
     "rollup": "^4.9.1",
     "rollup-plugin-copy": "^3.5.0",
-    "typescript": "^5.3.3"
+    "typescript": "5.3.3"
   },
   "scripts": {
     "prepublishOnly": "npm pack && node repack",
@@ -72,7 +72,8 @@
     "analyze:watch": "cem analyze --litelement --globs \"src/**/*.ts\" --watch",
     "serve": "wds --watch",
     "serve:prod": "MODE=prod npm run serve",
-    "test": "npm run test:dev && npm run test:prod",
+    "test:compat": "node --experimental-strip-types --test --test-isolation=none test/aoi-compatibility.test.ts",
+    "test": "npm run test:compat",
     "test:dev": "wtr",
     "test:watch": "wtr --watch",
     "test:prod": "MODE=prod wtr",
