@@ -16,7 +16,7 @@
   ],
   "type": "module",
   "dependencies": {
-    "@yrpri/api": "9.0.232",
+    "@yrpri/api": "9.0.256",
     "passport-openidconnect": "git+https://github.com/rbjarnason/passport-openidconnect.git"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@types/ws": "^8.5.10",
     "axios": "^1.4.0",
     "colors": "^1.4.0",
-    "csv-parse": "^5.3.1",
+    "csv-parse": "^7.0.3",
     "diacritics": "^1.2.3",
     "jshint": "^2.11.0",
     "jslint": "^0.12.1",
@@ -53,8 +53,8 @@
     "socket.io": "^4.0.0",
     "temp": "^0.9.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6",
-    "uuid": "^9.0.1",
+    "typescript": "5.3.3",
+    "uuid": "^11.1.1",
     "winston": "^3.11.0",
     "wordwrap": "^1.0.0",
     "ws": "^8.15.1",
@@ -73,6 +73,38 @@
     "node_modules"
   ],
   "engines": {
-    "node": "20.11.0"
+    "node": ">=24.0.0"
+  },
+  "overrides": {
+    "ip-address@>=10.0.0 <10.7.4": "10.7.4",
+    "undici@>=6.0.0 <6.29.1": "6.29.1",
+    "undici@>=7.0.0 <7.30.1": "7.30.1",
+    "gaxios@6": {
+      "uuid": "11.1.1"
+    },
+    "express-session": {
+      "cookie": "0.7.2",
+      "on-headers": "1.1.0"
+    },
+    "exceljs": {
+      "uuid": "11.1.1"
+    },
+    "sequelize": {
+      "uuid": "11.1.1"
+    },
+    "weaviate-ts-client": {
+      "uuid": "11.1.1"
+    },
+    "@grpc/grpc-js@>=1.14.0 <1.14.6": "1.14.6",
+    "@xmldom/xmldom@>=0.8.0 <0.8.15": "0.8.15",
+    "brace-expansion@>=1.0.0 <1.1.21": "1.1.21",
+    "brace-expansion@>=2.0.0 <2.1.7": "2.1.7",
+    "proxy-addr@>=2.0.0 <2.0.8": "2.0.8",
+    "brace-expansion@>=5.0.0 <5.0.12": "5.0.12",
+    "firecrawl@>=4.0.0 <4.51.0": "4.51.0",
+    "jshint": {
+      "lodash": "4.18.1",
+      "minimatch": "3.1.4"
+    }
   }
 }
