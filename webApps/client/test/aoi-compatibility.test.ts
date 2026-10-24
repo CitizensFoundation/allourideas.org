@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { randomUUID } from "node:crypto";
 import { createRequire } from "node:module";
 import { test } from "node:test";
 import vm from "node:vm";
@@ -32,7 +33,11 @@ function createAnalysis() {
       YpLanguages: { getEnglishName: () => "English" },
     },
     "../../yp-chatbots/yp-streaming-llm-scrolling.js": {
-      YpStreamingLlmScrolling: class { scrollDown() {} },
+      YpStreamingLlmScrolling: class extends EventTarget {
+        connectedCallback() {}
+        disconnectedCallback() {}
+        scrollDown() {}
+      },
     },
   };
   const module = { exports: {} as any };
@@ -43,9 +48,18 @@ function createAnalysis() {
   };
   vm.runInNewContext(
     `(function(require, module, exports) { ${output}\n })`,
-    { console: { warn() {} } },
+    { console: { warn() {} }, crypto: { randomUUID },
+      WebSocket: { OPEN: 1, CONNECTING: 0, CLOSING: 2, CLOSED: 3 } },
   )(mockedRequire, module, module.exports);
-  return new module.exports.AoiStreamingAnalysis();
+  const element = new module.exports.AoiStreamingAnalysis();
+  element.ws = { readyState: 1 };
+  element.wsClientId = "socket";
+  const streamAnalysis = element.streamAnalysis;
+  element.streamAnalysis = async () => {};
+  element.connectedCallback();
+  element.dispatchEvent(new Event("yp-ws-opened"));
+  element.streamAnalysis = streamAnalysis;
+  return element;
 }
 
 test("an HTTP failure is handled and a retry can load cached analysis", async () => {
